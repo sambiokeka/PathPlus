@@ -1,14 +1,13 @@
 import { useState, useEffect } from 'react';
 import { FaUserPlus } from 'react-icons/fa';
 
-import { mockMentores } from '../utils/data'; 
+import mockMentores from '../utils/data.json';
 
 import Filtro from '../components/mentores/Filtro';
 import ContainerMentores from '../components/mentores/ContainerMentores';
 import PopupMentor from '../components/mentores/PopupMentor';
 
 export default function Mentores() {
-
   const [mentores, setMentores] = useState([]);
   const [filteredMentores, setFilteredMentores] = useState([]);
   const [selectedMentor, setSelectedMentor] = useState(null);
@@ -22,11 +21,9 @@ export default function Mentores() {
   const [showFilters, setShowFilters] = useState(false);
 
   useEffect(() => {
-
     setMentores(mockMentores);
     setFilteredMentores(mockMentores);
-  }, []); 
-
+  }, []);
 
   useEffect(() => {
     let result = mentores;
@@ -56,7 +53,6 @@ export default function Mentores() {
     setFilteredMentores(result);
   }, [searchTerm, filters, mentores]);
 
-  // Funções de Ajuda
   const openModal = (mentor) => {
     setSelectedMentor(mentor);
     setIsModalOpen(true);
@@ -86,6 +82,7 @@ export default function Mentores() {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 py-8">
       <div className="container mx-auto px-4">
         
+        {/* Header da Página */}
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 mb-8">
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center">
             <div>
@@ -105,6 +102,7 @@ export default function Mentores() {
           </div>
         </div>
         
+        {/* Filtro */}
         <Filtro
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
@@ -116,11 +114,13 @@ export default function Mentores() {
           localizacoes={localizacoes}
         />
 
+        {/* Grid de Mentores */}
         <ContainerMentores
           filteredMentores={filteredMentores}
           openModal={openModal}
         />
 
+        {/* Modal */}
         {isModalOpen && selectedMentor && (
           <PopupMentor
             mentor={selectedMentor}
