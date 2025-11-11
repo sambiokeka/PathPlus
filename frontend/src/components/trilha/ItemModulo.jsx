@@ -27,6 +27,7 @@ const getStatusBadge = (status) => {
   }
 };
 
+
 const ItemModulo = ({ module, startModule }) => {
   return (
     <div 
@@ -122,9 +123,9 @@ const ItemModulo = ({ module, startModule }) => {
           disabled={module.status === 'upcoming'}
           className={`w-full lg:w-auto flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-colors ${
             module.status === 'completed'
-              ? 'bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300'
+              ? 'bg-green-100 hover:cursor-pointer dark:bg-green-900 text-green-700 dark:text-green-300'
               : module.status === 'current'
-              ? 'bg-indigo-600 hover:bg-indigo-700 text-white'
+              ? 'bg-indigo-600 hover:cursor-pointer hover:bg-indigo-700 text-white'
               : 'bg-gray-100 dark:bg-gray-700 text-gray-400 dark:text-gray-500 cursor-not-allowed'
           }`}
         >

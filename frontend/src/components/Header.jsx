@@ -22,11 +22,14 @@ const Header = ({ darkMode, toggleDarkMode }) => {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <h1 className="text-xl font-bold text-gray-800 dark:text-white">
-                <a href="homepage" className="flex items-center">
-                  Path +
-                </a>
-              </h1>
+            <h1 className="text-2xl md:text-3xl font-extrabold">
+              <a 
+                href="homepage" 
+                className="flex items-center bg-gradient-to-r from-indigo-200 to-indigo-400 bg-clip-text text-transparent hover:scale-105 transition-transform duration-200"
+              >
+                Path<span className="text-indigo-500 dark:text-indigo-400 ml-1">+</span>
+              </a>
+            </h1>
             </div>
             
             {/* Menu Desktop */}
@@ -54,7 +57,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
               {/* Toggle Dark Mode */}
               <button 
                 onClick={toggleDarkMode}
-                className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 flex items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                className="hover:cursor-pointer w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 flex items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
               >
                 {darkMode ? <FaSun className="text-gray-200" /> : <FaMoon />}
               </button>

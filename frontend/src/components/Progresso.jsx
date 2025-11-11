@@ -15,22 +15,25 @@ const Progresso = ({ data, variant = 'card' }) => {
               Domine as ferramentas e técnicas essenciais para se tornar um Cientista de Dados
             </p>
           </div>
-          <div className="flex items-center space-x-4">
-            <div className="text-center">
-              <div className="flex items-center justify-center w-12 h-12 bg-indigo-100 dark:bg-indigo-900 rounded-full">
-                <FaStar className="text-indigo-600 dark:text-indigo-400" />
+            <div className="flex items-center space-x-8">
+              {/* Bloco Dificuldade */}
+              <div className="flex flex-col items-center text-center">
+                <div className="flex items-center justify-center w-14 h-14 bg-indigo-100 dark:bg-indigo-900 rounded-full mb-2">
+                  <FaStar className="text-indigo-600 dark:text-indigo-400 text-lg" />
+                </div>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Dificuldade</p>
+                <p className="font-semibold text-gray-800 dark:text-white">Intermediária</p>
               </div>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">Dificuldade</p>
-              <p className="font-semibold text-gray-800 dark:text-white">Intermediária</p>
-            </div>
-            <div className="text-center">
-              <div className="flex items-center justify-center w-12 h-12 bg-green-100 dark:bg-green-900 rounded-full">
-                <FaClock className="text-green-600 dark:text-green-400" />
+
+              {/* Bloco Duração */}
+              <div className="flex flex-col items-center text-center">
+                <div className="flex items-center justify-center w-14 h-14 bg-green-100 dark:bg-green-900 rounded-full mb-2">
+                  <FaClock className="text-green-600 dark:text-green-400 text-lg" />
+                </div>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Duração Total</p>
+                <p className="font-semibold text-gray-800 dark:text-white">{data.totalDuration}h</p>
               </div>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">Duração Total</p>
-              <p className="font-semibold text-gray-800 dark:text-white">{data.totalDuration}h</p>
             </div>
-          </div>
         </div>
 
         {/* Seção da Barra de Progresso */}

@@ -6,7 +6,7 @@ const Usuario = () => {
         <p className="text-gray-600 dark:text-gray-300 mt-1">Continue sua jornada de aprendizado</p>
       </div>
       <div className="mt-4 md:mt-0">
-        <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium flex items-center transition-colors">
+        <button className="hover:cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium flex items-center transition-colors">
           <i className="fas fa-play-circle mr-2"></i>
           Continuar Aprendendo
         </button>

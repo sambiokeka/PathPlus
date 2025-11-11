@@ -116,7 +116,7 @@ export default function Mentores() {
               </p>
             </div>
             <div className="mt-4 lg:mt-0">
-              <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center">
+              <button className="hover:cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center">
                 <FaUserPlus className="mr-2" />
                 Tornar-se Mentor
               </button>

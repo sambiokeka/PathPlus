@@ -29,7 +29,7 @@ const Modulos = ({ modules, startModule }) => {
               Converse com nossos mentores especializados
             </p>
           </div>
-          <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center">
+          <button className="hover:cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center">
             <FaUserFriends className="mr-2" />
             Falar com um Mentor
           </button>

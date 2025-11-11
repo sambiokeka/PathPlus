@@ -45,7 +45,7 @@ const MentoresDashboard = () => {
           </div>
         </div>
       </div>
-      <button className="w-full mt-6 border border-dashed border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 py-3 rounded-lg font-medium hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
+      <button className="hover:cursor-pointer w-full mt-6 border border-dashed border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 py-3 rounded-lg font-medium hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
         <i className="fas fa-plus mr-2"></i>
         Encontrar mais mentores
       </button>
