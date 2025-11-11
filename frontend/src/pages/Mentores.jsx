@@ -1,15 +1,19 @@
 import { useState, useEffect } from 'react';
 import { FaUserPlus } from 'react-icons/fa';
-
-import mockMentores from '../utils/data.json';
+import mockMentores from '../utils/data.json'; 
 
 import Filtro from '../components/mentores/Filtro';
 import ContainerMentores from '../components/mentores/ContainerMentores';
 import PopupMentor from '../components/mentores/PopupMentor';
+import Paginacao from '../components/mentores/Paginacao'; 
+
+
+const MENTORES_POR_PAGINA = 6;
 
 export default function Mentores() {
+  // --- ESTADOS ---
   const [mentores, setMentores] = useState([]);
-  const [filteredMentores, setFilteredMentores] = useState([]);
+  const [filteredMentores, setFilteredMentores] = useState([]); 
   const [selectedMentor, setSelectedMentor] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
@@ -20,10 +24,14 @@ export default function Mentores() {
   });
   const [showFilters, setShowFilters] = useState(false);
 
+  const [currentPage, setCurrentPage] = useState(1);
+
+
   useEffect(() => {
     setMentores(mockMentores);
     setFilteredMentores(mockMentores);
   }, []);
+
 
   useEffect(() => {
     let result = mentores;
@@ -51,8 +59,10 @@ export default function Mentores() {
     }
     
     setFilteredMentores(result);
+    setCurrentPage(1); 
   }, [searchTerm, filters, mentores]);
 
+  // --- FUNÇÕES DE AJUDA ---
   const openModal = (mentor) => {
     setSelectedMentor(mentor);
     setIsModalOpen(true);
@@ -75,9 +85,21 @@ export default function Mentores() {
     }
   };
 
+
   const areas = [...new Set(mentores.map(mentor => mentor.area))];
   const localizacoes = [...new Set(mentores.map(mentor => mentor.localizacao))];
 
+  // --- LÓGICA DE PAGINAÇÃO ---
+  const totalPages = Math.ceil(filteredMentores.length / MENTORES_POR_PAGINA);
+  const startIndex = (currentPage - 1) * MENTORES_POR_PAGINA;
+  const endIndex = startIndex + MENTORES_POR_PAGINA;
+  const mentoresDaPagina = filteredMentores.slice(startIndex, endIndex); 
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+  // --- RENDERIZAÇÃO ---
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 py-8">
       <div className="container mx-auto px-4">
@@ -116,8 +138,16 @@ export default function Mentores() {
 
         {/* Grid de Mentores */}
         <ContainerMentores
-          filteredMentores={filteredMentores}
+          mentoresDaPagina={mentoresDaPagina}
+          totalMentoresEncontrados={filteredMentores.length}
           openModal={openModal}
+        />
+
+        {/* Paginacao */}
+        <Paginacao
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={handlePageChange}
         />
 
         {/* Modal */}

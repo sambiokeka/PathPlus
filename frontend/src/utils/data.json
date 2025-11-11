@@ -2,6 +2,7 @@
   {
     "id": 1,
     "nome": "Maria Lima",
+    "foto": "https://media.istockphoto.com/id/981750034/photo/run-your-company-with-confidence.jpg?s=612x612&w=0&k=20&c=txlEu6hmZIRqHPdc0dkT-f5_ZQc0xZbdtpb0TEF6PI4=",
     "cargo": "Cientista de Dados Sênior",
     "localizacao": "São Paulo, Brasil",
     "avaliacao": 4.8,
@@ -28,6 +29,7 @@
   {
     "id": 2,
     "nome": "Pedro Silva",
+    "foto": "https://img.freepik.com/free-photo/close-up-portrait-man-looking-camera-outdoors_23-2148283854.jpg?semt=ais_hybrid&w=740&q=80",
     "cargo": "Engenheiro de Machine Learning",
     "localizacao": "Remoto",
     "avaliacao": 4.5,
@@ -50,6 +52,7 @@
   {
     "id": 3,
     "nome": "Lucas Mendes",
+    "foto": "https://img.freepik.com/fotos-gratis/jovem-barbudo-com-camisa-listrada_273609-5677.jpg?semt=ais_incoming&w=740&q=80",
     "cargo": "Desenvolvedor Frontend Sênior",
     "localizacao": "Recife, Brasil",
     "avaliacao": 4.9,
@@ -75,6 +78,7 @@
   {
     "id": 4,
     "nome": "Camila Santos",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmHMsP8hTelFnU7Ljvf9Bz3zCsIxcsZNG0DQ&s",
     "cargo": "UX/UI Designer Lead",
     "localizacao": "Lisboa, Portugal",
     "avaliacao": 4.7,
@@ -97,6 +101,7 @@
   {
     "id": 5,
     "nome": "Bruno Oliveira",
+    "foto": "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zMjgtMzY2LXRvbmctMDhfMS5qcGc.jpg",
     "cargo": "Engenheiro de Backend",
     "localizacao": "Remoto",
     "avaliacao": 4.6,
@@ -119,6 +124,7 @@
   {
     "id": 6,
     "nome": "Fernanda Costa",
+    "foto": "https://media.sgff.io/sgff_r1eHetbDYb/2019-07-01/1562003484024/img_chapter_2.png",
     "cargo": "Product Manager Sênior",
     "localizacao": "Florianópolis, Brasil",
     "avaliacao": 4.9,
@@ -141,6 +147,7 @@
   {
     "id": 7,
     "nome": "Ana Souza",
+    "foto": "https://img.freepik.com/fotos-gratis/close-up-na-jovem_23-2149133073.jpg?semt=ais_hybrid&w=740&q=80",
     "cargo": "Analista de BI",
     "localizacao": "Curitiba, Brasil",
     "avaliacao": 4.7,
@@ -163,6 +170,7 @@
   {
     "id": 8,
     "nome": "Juliana Alves",
+    "foto": "https://img.freepik.com/fotos-gratis/jovem-bonita-alegre-vestindo-camisa-branca-com-cabelo-loiro-sorrindo-agradavelmente-ao-receber-algumas-noticias-positivas-menina-bonita-olhando-com-sorriso-alegre_176420-13579.jpg?semt=ais_hybrid&w=740&q=80",
     "cargo": "Especialista em Cibersegurança",
     "localizacao": "Brasília, Brasil",
     "avaliacao": 4.8,
@@ -185,6 +193,7 @@
   {
     "id": 9,
     "nome": "Rafael Martins",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_z-Lc_2sj2QtMPwQaS6Palep-Nh-cvl_egA56FKOJh_05dSzAvj5RzCeoKsIwKZJGGNk&usqp=CAU",
     "cargo": "Engenheiro de Dados",
     "localizacao": "Remoto",
     "avaliacao": 4.6,
@@ -207,6 +216,7 @@
   {
     "id": 10,
     "nome": "Daniel Moreira",
+    "foto": "https://t4.ftcdn.net/jpg/05/23/62/91/360_F_523629123_RpAModBJXgCTPfilfYaCIbPaalFIjbvv.jpg",
     "cargo": "Desenvolvedor iOS Sênior",
     "localizacao": "São Paulo, Brasil",
     "avaliacao": 4.7,
@@ -229,6 +239,7 @@
   {
     "id": 11,
     "nome": "Sofia Cunha",
+    "foto": "https://www.women.com/img/gallery/kate-middletons-dramatic-makeup-for-remembrance-sunday-misses-the-mark/intro-1762811116.jpg",
     "cargo": "Desenvolvedora Android Sênior",
     "localizacao": "Belo Horizonte, Brasil",
     "avaliacao": 4.6,
@@ -251,6 +262,7 @@
   {
     "id": 12,
     "nome": "Tiago Nunes",
+    "foto": "https://variety.com/wp-content/uploads/2024/06/5N7A0541-e1718042484447.jpg",
     "cargo": "Arquiteto de Cloud (Azure)",
     "localizacao": "Remoto",
     "avaliacao": 4.8,
@@ -273,6 +285,7 @@
   {
     "id": 13,
     "nome": "Laura Mendes",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNHfPBD1IU8yer95JpHkMQB9-F6p-aV907MA&s",
     "cargo": "Especialista em QA",
     "localizacao": "Porto Alegre, Brasil",
     "avaliacao": 4.7,
@@ -295,6 +308,7 @@
   {
     "id": 14,
     "nome": "Gabriela Ferreira",
+    "foto": "https://media.istockphoto.com/id/1289220545/photo/beautiful-woman-smiling-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=qmOTkGstKj1qN0zPVWj-n28oRA6_BHQN8uVLIXg0TF8=",
     "cargo": "UX Researcher",
     "localizacao": "Remoto",
     "avaliacao": 4.9,
@@ -317,6 +331,7 @@
   {
     "id": 15,
     "nome": "Beatriz Almeida",
+    "foto": "https://www.shutterstock.com/image-photo/closeup-portrait-young-happy-woman-600nw-2247522611.jpg",
     "cargo": "Gerente de Projetos (PMP)",
     "localizacao": "São Paulo, Brasil",
     "avaliacao": 4.5,
@@ -339,6 +354,7 @@
   {
     "id": 16,
     "nome": "Vinícius Rocha",
+    "foto": "https://t4.ftcdn.net/jpg/02/39/83/21/360_F_239832163_sUbJkPrtjkZvKHm3x7UHdtIPDP8Y3YWl.jpg",
     "cargo": "Desenvolvedor Frontend",
     "localizacao": "Remoto",
     "avaliacao": 4.4,
@@ -361,6 +377,7 @@
   {
     "id": 17,
     "nome": "Roberto Mendes",
+    "foto": "https://media.istockphoto.com/id/492529287/photo/portrait-of-happy-laughing-man.jpg?s=612x612&w=0&k=20&c=0xQcd69Bf-mWoJYgjxBSPg7FHS57nOfYpZaZlYDVKRE=",
     "cargo": "Especialista em Cloud (GCP)",
     "localizacao": "Rio de Janeiro, Brasil",
     "avaliacao": 4.7,
@@ -383,6 +400,7 @@
   {
     "id": 18,
     "nome": "Larissa Andrade",
+    "foto": "https://media.istockphoto.com/id/1480667702/photo/mature-woman-standing-outside-in-a-park-and-smiling.jpg?s=612x612&w=0&k=20&c=Dpjjhs3c95ekQLsPQemS7wItJOQQ4_3d4236uEvv5c0=",
     "cargo": "Analista de GRC e Privacidade",
     "localizacao": "São Paulo, Brasil",
     "avaliacao": 4.6,
@@ -405,13 +423,14 @@
   {
     "id": 19,
     "nome": "Igor Vasconcelos",
+    "foto": "https://plus.unsplash.com/premium_photo-1682144187125-b55e638cf286?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFuJTIwcG9ydHJhaXR8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000",
     "cargo": "Desenvolvedor Backend (.NET)",
     "localizacao": "Remoto",
     "avaliacao": 4.5,
     "disponibilidade": "Limitada",
     "area": "Engenharia de Software",
     "resumo": "Experiência com o ecossistema .NET, construindo APIs robustas com C# e ASP.NET Core.",
-    "experiencias": [
+    "experiências": [
       { "cargo": "Desenvolvedor .NET", "empresa": "Indústria X", "inicio": "2017", "fim": "Atual", "descricao": "Manutenção e desenvolvimento de sistemas." }
     ],
     "habilidadesTecnicas": ["C#", ".NET Core", "ASP.NET", "SQL Server", "Azure"],
@@ -427,6 +446,7 @@
   {
     "id": 20,
     "nome": "Letícia Barros",
+    "foto": "https://images.pexels.com/photos/774095/pexels-photo-774095.jpeg?cs=srgb&dl=pexels-olly-774095.jpg&fm=jpg",
     "cargo": "Agile Coach",
     "localizacao": "São Paulo, Brasil",
     "avaliacao": 4.8,

@@ -7,12 +7,16 @@ const Mentor = ({ mentor, openModal, renderStars }) => {
       className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow cursor-pointer border border-gray-200 dark:border-gray-700"
     >
       <div className="flex items-start space-x-4">
-        <div className="w-16 h-16 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center flex-shrink-0">
-          <span className="text-indigo-600 dark:text-indigo-300 font-bold text-lg">
-            {/* Pega as iniciais do nome */}
-            {mentor.nome.split(' ').map(n => n[0]).join('')}
-          </span>
-        </div>
+        
+        {/* --- MUDANÇA AQUI --- */}
+        {/* Substituímos a <div> com as iniciais por esta <img> */}
+        <img
+          src={mentor.foto}
+          alt={`Foto de ${mentor.nome}`}
+          className="w-16 h-16 rounded-full object-cover flex-shrink-0"
+        />
+        {/* --- FIM DA MUDANÇA --- */}
+
         <div className="flex-1 min-w-0">
           <h3 className="font-semibold text-gray-800 dark:text-white truncate">
             {mentor.nome}
@@ -37,6 +41,7 @@ const Mentor = ({ mentor, openModal, renderStars }) => {
         </div>
       </div>
 
+      {/* ... (resto do componente sem alteração) ... */}
       <div className="mt-4">
         <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
           {mentor.resumo}

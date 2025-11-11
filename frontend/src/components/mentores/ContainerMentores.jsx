@@ -1,18 +1,18 @@
-import { FaSearch, FaStar, FaRegStar } from 'react-icons/fa'; 
-import Mentor from './Mentor'; 
+import { FaSearch, FaStar, FaRegStar } from 'react-icons/fa';
+import Mentor from './Mentor'; // Importa o card individual
 
+// Função de ajuda para renderizar estrelas
 const renderStars = (avaliacao) => {
   const stars = [];
   const fullStars = Math.floor(avaliacao);
-  const hasHalfStar = avaliacao % 1 !== 0; 
+  const hasHalfStar = avaliacao % 1 !== 0;
 
   for (let i = 0; i < fullStars; i++) {
     stars.push(<FaStar key={i} className="text-yellow-400" />);
   }
 
-
   if (hasHalfStar) {
-    stars.push(<FaStar key="half" className="text-yellow-400" />); 
+    stars.push(<FaStar key="half" className="text-yellow-400" />);
   }
 
   const emptyStars = 5 - stars.length;
@@ -23,14 +23,17 @@ const renderStars = (avaliacao) => {
   return stars;
 };
 
-const ContainerMentores = ({ filteredMentores, openModal }) => {
+// As props mudaram para refletir a paginação
+const ContainerMentores = ({ mentoresDaPagina, totalMentoresEncontrados, openModal }) => {
   return (
     <div className="mb-6">
       <h2 className="text-lg font-semibold text-gray-800 dark:text-white mb-4">
-        {filteredMentores.length} mentores encontrados
+        {/* Usa o número total que veio do "Pai" */}
+        {totalMentoresEncontrados} mentores encontrados
       </h2>
       
-      {filteredMentores.length === 0 && (
+      {/* Se não houver resultados (baseado no total) */}
+      {totalMentoresEncontrados === 0 && (
         <div className="text-center py-12">
           <div className="w-24 h-24 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-4">
             <FaSearch className="text-gray-400 text-2xl" />
@@ -44,14 +47,16 @@ const ContainerMentores = ({ filteredMentores, openModal }) => {
         </div>
       )}
 
-      {filteredMentores.length > 0 && (
+      {/* Se houver resultados, mostre o grid */}
+      {totalMentoresEncontrados > 0 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredMentores.map(mentor => (
+          {/* Mapeia apenas os 6 mentores da página atual */}
+          {mentoresDaPagina.map(mentor => (
             <Mentor
               key={mentor.id}
               mentor={mentor}
               openModal={openModal}
-              renderStars={renderStars}
+              renderStars={renderStars} // Passa a função para o card
             />
           ))}
         </div>

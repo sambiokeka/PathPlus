@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   FaTimes,
   FaMapMarkerAlt,
@@ -11,6 +12,7 @@ import {
   FaEnvelope,
 } from 'react-icons/fa';
 
+// Função de ajuda para renderizar estrelas
 const renderStars = (avaliacao) => {
   const stars = [];
   const fullStars = Math.floor(avaliacao);
@@ -35,15 +37,17 @@ const renderStars = (avaliacao) => {
 const PopupMentor = ({ mentor, closeModal, handleRecommend, handleMessage }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50">
+      {/* O container do modal */}
       <div className="bg-white dark:bg-gray-800 rounded-xl shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
         <div className="p-6">
+          {/* Header do Modal */}
           <div className="flex justify-between items-start mb-6">
             <div className="flex items-start space-x-4">
-              <div className="w-20 h-20 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center flex-shrink-0">
-                <span className="text-indigo-600 dark:text-indigo-300 font-bold text-2xl">
-                  {mentor.nome.split(' ').map(n => n[0]).join('')}
-                </span>
-              </div>
+              <img
+                src={mentor.foto}
+                alt={`Foto de ${mentor.nome}`}
+                className="w-20 h-20 rounded-full object-cover flex-shrink-0"
+              />
               <div>
                 <h2 className="text-2xl font-bold text-gray-800 dark:text-white">
                   {mentor.nome}
@@ -72,6 +76,8 @@ const PopupMentor = ({ mentor, closeModal, handleRecommend, handleMessage }) => 
               <FaTimes className="text-2xl" />
             </button>
           </div>
+
+          {/* Conteúdo do Modal */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             {/* Coluna Principal */}
             <div className="lg:col-span-2 space-y-6">
@@ -192,7 +198,10 @@ const PopupMentor = ({ mentor, closeModal, handleRecommend, handleMessage }) => 
                       </h4>
                       <p className="text-sm text-gray-600 dark:text-gray-300">
                         {form.instituicao} • {form.ano}
-                      </p>
+                      </p> 
+                      {/* --- CORREÇÃO AQUI (Linha 204) ---
+                         Fechei a tag <p> corretamente
+                      */}
                     </div>
                   ))}
                 </div>
