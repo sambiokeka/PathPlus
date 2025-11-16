@@ -5,7 +5,6 @@ import Dashboard from "../pages/Dashboard";
 import Mentores from "../pages/Mentores";
 import HomePage from "../pages/HomePage";
 
-
 export const router = createBrowserRouter([
     {
         path: "/",

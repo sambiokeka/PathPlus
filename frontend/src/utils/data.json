@@ -465,5 +465,809 @@
     "certificacoes": ["CSM (Certified ScrumMaster)", "PSK (Professional Scrum Kanban)"],
     "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
     "areaInteresses": ["Agilidade Organizacional", "Psicologia", "Times"]
-  }
+  },
+  {
+    "id": 21,
+    "nome": "Ricardo Nunes",
+    "foto": "https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?_gl=1*ywhqjp*_ga*MjEzMTE4MjYyMS4xNzYzMDg5OTgy*_ga_8JE65Q40S6*czE3NjMzMjIzNjMkbzkkZzEkdDE3NjMzMjIzOTgkajI1JGwwJGgw",
+    "cargo": "Especialista DevOps Sênior",
+    "localizacao": "Remoto",
+    "avaliacao": 4.9,
+    "disponibilidade": "Disponível",
+    "area": "Cloud",
+    "resumo": "Focado em automação de infraestrutura (IaC), CI/CD e orquestração de containers. Ajudo times a entregar software mais rápido e com mais confiabilidade.",
+    "experiencias": [
+      { "cargo": "DevOps Sênior", "empresa": "InfraTech", "inicio": "2018", "fim": "Atual", "descricao": "Implementação de pipelines CI/CD com GitLab e Jenkins." }
+    ],
+    "habilidadesTecnicas": ["Terraform", "Ansible", "Kubernetes", "Jenkins", "GitLab CI", "Prometheus"],
+    "projetos": [
+      { "titulo": "Cluster Kubernetes", "descricao": "Migração de monólitos para microsserviços em K8s.", "link": "#" }
+    ],
+    "softSkills": ["Colaboração", "Automação", "Pensamento Sistêmico"],
+    "formacao": [
+      { "curso": "Engenharia de Computação", "instituicao": "UFRGS", "ano": "2016" }
+    ],
+    "certificacoes": ["CKA (Certified Kubernetes Administrator)", "Terraform Associate"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["DevOps", "IaC", "Observabilidade"]
+  },
+  {
+    "id": 22,
+    "nome": "Carla Dias",
+    "foto": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?_gl=1*dpf76v*_ga*MjEzMTE4MjYyMS4xNzYzMDg5OTgy*_ga_8JE65Q40S6*czE3NjMzMjIzNjMkbzkkZzEkdDE3NjMzMjI3MTIkajUxJGwwJGgw",
+    "cargo": "Desenvolvedora Mobile (Flutter)",
+    "localizacao": "Curitiba, Brasil",
+    "avaliacao": 3.7,
+    "disponibilidade": "Disponível",
+    "area": "Mobile",
+    "resumo": "Desenvolvedora focada em Flutter. Crio aplicativos nativos para iOS e Android a partir de um único código-base, com foco em performance e UI fluida.",
+    "experiencias": [
+      { "cargo": "Desenvolvedora Flutter", "empresa": "AppWorks", "inicio": "2019", "fim": "Atual", "descricao": "Desenvolvimento de apps B2C com Flutter e Firebase." }
+    ],
+    "habilidadesTecnicas": ["Flutter", "Dart", "Firebase", "BLoC", "GetX"],
+    "projetos": [
+      { "titulo": "App de Delivery", "descricao": "App completo de delivery com rastreamento.", "link": "#" }
+    ],
+    "softSkills": ["Adaptabilidade", "Foco no Usuário", "Criatividade"],
+    "formacao": [
+      { "curso": "Design Digital", "instituicao": "PUC-PR", "ano": "2018" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Flutter", "Mobile", "UI/UX"]
+  },
+  {
+    "id": 23,
+    "nome": "Marcos Andrade",
+    "foto": "https://images.pexels.com/photos/819530/pexels-photo-819530.jpeg?_gl=1*hx165h*_ga*MjEzMTE4MjYyMS4xNzYzMDg5OTgy*_ga_8JE65Q40S6*czE3NjMzMjIzNjMkbzkkZzEkdDE3NjMzMjI3NTckajYkbDAkaDA.",
+    "cargo": "Analista de Dados Pleno",
+    "localizacao": "Remoto",
+    "avaliacao": 4.5,
+    "disponibilidade": "Limitada",
+    "area": "Data Science",
+    "resumo": "Analista de dados com foco em SQL e ferramentas de BI (Tableau). Ajudo empresas a tomar decisões baseadas em dados através de dashboards e relatórios.",
+    "experiencias": [
+      { "cargo": "Analista de Dados", "empresa": "Varejo S.A.", "inicio": "2020", "fim": "Atual", "descricao": "Análise de dados de vendas e comportamento do consumidor." }
+    ],
+    "habilidadesTecnicas": ["SQL", "Tableau", "Excel", "Python (Pandas)", "Estatística"],
+    "projetos": [],
+    "softSkills": ["Pensamento Analítico", "Curiosidade", "Comunicação"],
+    "formacao": [
+      { "curso": "Administração", "instituicao": "FGV", "ano": "2019" }
+    ],
+    "certificacoes": ["Tableau Desktop Specialist"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["BI", "Varejo", "Finanças"]
+  },
+  {
+    "id": 24,
+    "nome": "Aline Costa",
+    "foto": "https://img.freepik.com/fotos-gratis/morena-de-cabelo-curto-e-sorridente-posando-com-os-bracos-cruzados_176420-41008.jpg?w=740&q=80",
+    "cargo": "Product Designer",
+    "localizacao": "Belo Horizonte, Brasil",
+    "avaliacao": 4.8,
+    "disponibilidade": "Disponível",
+    "area": "Design",
+    "resumo": "Designer de Produto (UX/UI) com foco em Design Systems. Crio interfaces consistentes, escaláveis e acessíveis que unem as necessidades do usuário aos objetivos do negócio.",
+    "experiencias": [
+      { "cargo": "Product Designer", "empresa": "Banco Digital", "inicio": "2019", "fim": "Atual", "descricao": "Evolução e manutenção do Design System da empresa." }
+    ],
+    "habilidadesTecnicas": ["Figma", "Design Systems", "Prototipação", "UX Writing", "Acessibilidade"],
+    "projetos": [
+      { "titulo": "Design System", "descricao": "Criação do DS para 3 plataformas (Web, iOS, Android).", "link": "#" }
+    ],
+    "softSkills": ["Colaboração", "Visão Sistêmica", "Comunicação"],
+    "formacao": [
+      { "curso": "Design de Produto", "instituicao": "UEMG", "ano": "2018" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Design Systems", "Acessibilidade", "Fintech"]
+  },
+  {
+    "id": 25,
+    "nome": "Fábio Santos",
+    "foto": "/src/assets/fotos/cara1.jpg",
+    "cargo": "Desenvolvedor Backend (Node.js)",
+    "localizacao": "Remoto",
+    "avaliacao": 4.6,
+    "disponibilidade": "Disponível",
+    "area": "Engenharia de Software",
+    "resumo": "Especialista em backend com Node.js e TypeScript. Foco em APIs REST/GraphQL e arquitetura de microsserviços na AWS.",
+    "experiencias": [
+      { "cargo": "Desenvolvedor Backend", "empresa": "Startup Saúde", "inicio": "2018", "fim": "Atual", "descricao": "Desenvolvimento de APIs GraphQL para apps de saúde." }
+    ],
+    "habilidadesTecnicas": ["Node.js", "TypeScript", "GraphQL", "AWS Lambda", "DynamoDB", "NestJS"],
+    "projetos": [],
+    "softSkills": ["Resolução de Problemas", "Eficiência", "Trabalho em Equipe"],
+    "formacao": [
+      { "curso": "Sistemas de Informação", "instituicao": "USP", "ano": "2017" }
+    ],
+    "certificacoes": ["AWS Certified Developer - Associate"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Serverless", "GraphQL", "Arquitetura"]
+  },
+  {
+    "id": 26,
+    "nome": "Renata Martins",
+    "foto": "https://img.freepik.com/fotos-gratis/retrato-de-uma-jovem-e-bela-empresaria-em-pe-no-cargo_231208-10901.jpg?w=740&q=80",
+    "cargo": "Desenvolvedora Frontend (Angular)",
+    "localizacao": "São Paulo, Brasil",
+    "avaliacao": 4.4,
+    "disponibilidade": "Limitada",
+    "area": "Engenharia de Software",
+    "resumo": "Foco no desenvolvimento de aplicações corporativas complexas com Angular. Experiência sólida em TypeScript e testes unitários.",
+    "experiencias": [
+      { "cargo": "Desenvolvedora Angular", "empresa": "Consultoria Enterprise", "inicio": "2017", "fim": "Atual", "descricao": "Manutenção e desenvolvimento de sistemas bancários." }
+    ],
+    "habilidadesTecnicas": ["Angular", "TypeScript", "RxJS", "NgRx", "Testes Unitários"],
+    "projetos": [],
+    "softSkills": ["Disciplina", "Foco", "Qualidade de Código"],
+    "formacao": [
+      { "curso": "Análise de Sistemas", "instituicao": "Fatec", "ano": "2016" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Angular", "Sistemas Enterprise", "Fintech"]
+  },
+  {
+    "id": 27,
+    "nome": "Diego Fernandes",
+    "foto": "https://img.freepik.com/fotos-gratis/homem-bonito-posando-com-bracos-cruzados_176420-19001.jpg?w=740&q=80",
+    "cargo": "Arquiteto de Soluções AWS",
+    "localizacao": "Remoto",
+    "avaliacao": 4.9,
+    "disponibilidade": "Disponível",
+    "area": "Cloud",
+    "resumo": "Arquiteto de Soluções certificado AWS (Professional). Ajudo empresas a desenhar, migrar e otimizar suas cargas de trabalho na nuvem.",
+    "experiencias": [
+      { "cargo": "Arquiteto de Soluções", "empresa": "AWS Partner", "inicio": "2017", "fim": "Atual", "descricao": "Desenho de arquiteturas multi-conta e migrações." }
+    ],
+    "habilidadesTecnicas": ["AWS", "Terraform", "Serverless (Lambda)", "Redes", "Segurança", "Migração"],
+    "projetos": [],
+    "softSkills": ["Visão Estratégica", "Comunicação", "Liderança Técnica"],
+    "formacao": [
+      { "curso": "Engenharia de Telecomunicações", "instituicao": "INATEL", "ano": "2015" }
+    ],
+    "certificacoes": ["AWS Certified Solutions Architect - Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Cloud", "Arquitetura", "Serverless"]
+  },
+  {
+    "id": 28,
+    "nome": "Tatiana Morais",
+    "foto": "/src/assets/fotos/mulher1.jpg",
+    "cargo": "Agile Coach / Scrum Master",
+    "localizacao": "Rio de Janeiro, Brasil",
+    "avaliacao": 4.8,
+    "disponibilidade": "Disponível",
+    "area": "Produto",
+    "resumo": "Agile Coach com foco em destravar o potencial de times. Especialista em Scrum, Kanban e métricas ágeis. Facilito a transformação ágil em nível de time e programa.",
+    "experiencias": [
+      { "cargo": "Agile Coach", "empresa": "Digital Hub", "inicio": "2019", "fim": "Atual", "descricao": "Coaching de times de desenvolvimento e produto." }
+    ],
+    "habilidadesTecnicas": ["Scrum", "Kanban", "Métricas Ágeis (CFD, Lead Time)", "JIRA", "Facilitação"],
+    "projetos": [],
+    "softSkills": ["Liderança Servidora", "Comunicação", "Resolução de Conflitos", "Empatia"],
+    "formacao": [
+      { "curso": "Psicologia", "instituicao": "UFRJ", "ano": "2014" }
+    ],
+    "certificacoes": ["CSM", "CSPO", "KMP I & II"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Agilidade", "Cultura Organizacional", "Psicologia"]
+  },
+  {
+    "id": 29,
+    "nome": "Everson Olhos",
+    "foto": "https://www.estadao.com.br/resizer/v2/WTS5RKLEORN7XOFQUYODZZQLIQ.jpg?quality=80&auth=96452b59d3b6ef02222be1c924bb468877dcbae80a37cba35a40a6a12c69ae27&width=1200&height=1200&focal=0,0",
+    "cargo": "Especialista em Marketing Digital",
+    "localizacao": "Remoto",
+    "avaliacao": 0.6,
+    "disponibilidade": "Disponível",
+    "area": "Marketing",
+    "resumo": "Foco em marketing de performance e SEO. Gero leads e receita através de campanhas otimizadas no Google Ads, Meta Ads e tráfego orgânico.",
+    "experiencias": [
+      { "cargo": "Analista de Performance", "empresa": "E-commerce X", "inicio": "2018", "fim": "Atual", "descricao": "Gestão de campanhas de mídia paga e SEO." }
+    ],
+    "habilidadesTecnicas": ["Google Ads", "Meta Ads", "SEO", "Google Analytics", "Looker Studio"],
+    "projetos": [],
+    "softSkills": ["Pensamento Analítico", "Foco em Resultados", "Criatividade"],
+    "formacao": [
+      { "curso": "Publicidade e Propaganda", "instituicao": "ESPM", "ano": "2017" }
+    ],
+    "certificacoes": ["Google Ads Certified Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Marketing", "SEO", "Performance"]
+  },
+  {
+    "id": 30,
+    "nome": "Patrícia Gomes",
+    "foto": "https://img.freepik.com/fotos-gratis/retrato-de-uma-jovem-e-bonita-empresaria-coreana-de-pe-e-sorrindo-para-a-camera-em-um-escritorio-moderno_176420-21307.jpg?w=740&q=80",
+    "cargo": "Desenvolvedora Fullstack",
+    "localizacao": "Curitiba, Brasil",
+    "avaliacao": 4.7,
+    "disponibilidade": "Disponível",
+    "area": "Engenharia de Software",
+    "resumo": "Desenvolvedora Fullstack com paixão por Ruby on Rails e React. Gosto de construir produtos completos, do banco de dados até a interface do usuário.",
+    "experiencias": [
+      { "cargo": "Desenvolvedora Fullstack", "empresa": "Startup B", "inicio": "2019", "fim": "Atual", "descricao": "Desenvolvimento e manutenção de aplicação SaaS." }
+    ],
+    "habilidadesTecnicas": ["Ruby on Rails", "React", "JavaScript", "PostgreSQL", "Heroku"],
+    "projetos": [],
+    "softSkills": ["Versatilidade", "Comunicação", "Proatividade"],
+    "formacao": [
+      { "curso": "Engenharia de Software", "instituicao": "UTFPR", "ano": "2019" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Ruby on Rails", "React", "SaaS"]
+  },
+  {
+    "id": 31,
+    "nome": "Henrique Tavares",
+    "foto": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=740",
+    "cargo": "Especialista DevOps Sênior",
+    "localizacao": "Remoto",
+    "avaliacao": 4.9,
+    "disponibilidade": "Disponível",
+    "area": "Cloud",
+    "resumo": "Focado em automação de infraestrutura (IaC), CI/CD e orquestração de containers. Ajudo times a entregar software mais rápido e com mais confiabilidade.",
+    "experiencias": [
+      { "cargo": "DevOps Sênior", "empresa": "InfraTech", "inicio": "2018", "fim": "Atual", "descricao": "Implementação de pipelines CI/CD com GitLab e Jenkins." }
+    ],
+    "habilidadesTecnicas": ["Terraform", "Ansible", "Kubernetes", "Jenkins", "GitLab CI", "Prometheus"],
+    "projetos": [
+      { "titulo": "Cluster Kubernetes", "descricao": "Migração de monólitos para microsserviços em K8s.", "link": "#" }
+    ],
+    "softSkills": ["Colaboração", "Automação", "Pensamento Sistêmico"],
+    "formacao": [
+      { "curso": "Engenharia de Computação", "instituicao": "UFRGS", "ano": "2016" }
+    ],
+    "certificacoes": ["CKA (Certified Kubernetes Administrator)", "Terraform Associate"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["DevOps", "IaC", "Observabilidade"]
+  },
+  {
+    "id": 32,
+    "nome": "Luana Ribeiro",
+    "foto": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=740",
+    "cargo": "Desenvolvedora Mobile (Flutter)",
+    "localizacao": "Curitiba, Brasil",
+    "avaliacao": 4.7,
+    "disponibilidade": "Disponível",
+    "area": "Mobile",
+    "resumo": "Desenvolvedora focada em Flutter. Crio aplicativos nativos para iOS e Android a partir de um único código-base, com foco em performance e UI fluida.",
+    "experiencias": [
+      { "cargo": "Desenvolvedora Flutter", "empresa": "AppWorks", "inicio": "2019", "fim": "Atual", "descricao": "Desenvolvimento de apps B2C com Flutter e Firebase." }
+    ],
+    "habilidadesTecnicas": ["Flutter", "Dart", "Firebase", "BLoC", "GetX"],
+    "projetos": [
+      { "titulo": "App de Delivery", "descricao": "App completo de delivery com rastreamento.", "link": "#" }
+    ],
+    "softSkills": ["Adaptabilidade", "Foco no Usuário", "Criatividade"],
+    "formacao": [
+      { "curso": "Design Digital", "instituicao": "PUC-PR", "ano": "2018" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Flutter", "Mobile", "UI/UX"]
+  },
+  {
+    "id": 33,
+    "nome": "Gustav Elijah",
+    "foto": "/src/assets/fotos/gus.jpg",
+    "cargo": "Analista de Dados Pleno",
+    "localizacao": "Remoto",
+    "avaliacao": 5.0,
+    "disponibilidade": "Limitada",
+    "area": "Data Science",
+    "resumo": "Analista de dados com forte sensibilidade criativa. Conecta padrões, pessoas e histórias por meio de dados, sempre focado em trazer leveza ao processo e transformar complexidade em algo acessível.",
+    "experiencias": [
+      { "cargo": "Analista de Dados", "empresa": "Aurora Insights", "inicio": "2020", "fim": "Atual", "descricao": "Responsável por análises exploratórias e criação de dashboards que facilitam a tomada de decisão. Atua conectando múltiplas fontes de dados e traduzindo-as em narrativas claras." }
+    ],
+    "habilidadesTecnicas": ["SQL", "Tableau", "Excel", "Python", "Estatística"],
+    "projetos": [
+      { "titulo": "GBC", "descricao": "Plataforma web para criação de beats musicais com poucos cliques", "link": "#" }
+    ],
+    "softSkills": ["Empatia", "Criatividade", "Pensamento Analítico"],
+    "formacao": [
+      { "curso": "Administração", "instituicao": "FGV", "ano": "2019" }
+    ],
+    "certificacoes": ["Tableau Desktop Specialist"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Visualização de Dados", "Comportamento Humano", "Tendências Digitais"]
+  },
+  {
+    "id": 34,
+    "nome": "Anny Koch",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQr1IfPspZb9mJdIN51ToNICms6oqb3x4n1g&s",
+    "cargo": "Product Designer",
+    "localizacao": "Belo Horizonte, Brasil",
+    "avaliacao": 4.8,
+    "disponibilidade": "Disponível",
+    "area": "Design",
+    "resumo": "Product Designer focada em criar experiências digitais simples e emocionais. Atua no cruzamento entre comportamento humano e interfaces, buscando soluções elegantes que reduzam atrito e aumentem engajamento.",
+    "experiencias": [
+      { "cargo": "Product Designer", "empresa": "NuvemTech", "inicio": "2021", "fim": "Atual", "descricao": "Liderança em pesquisas qualitativas e validações contínuas. Desenvolvimento de fluxos de onboarding e dashboards que aumentaram a adoção do produto." }
+    ],
+    "habilidadesTecnicas": ["Figma", "User Research", "Prototipação", "Arquitetura da Informação", "Motion UI"],
+    "projetos": [
+      { "titulo": "Revamp de Onboarding", "descricao": "Redesenho completo do fluxo de entrada do usuário, aumentando a conclusão em 28%.", "link": "#" }
+    ],
+    "softSkills": ["Empatia", "Pensamento Crítico", "Comunicação Clara"],
+    "formacao": [
+      { "curso": "Design Digital", "instituicao": "PUC Minas", "ano": "2020" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["User Research", "Motion Design", "Psicologia Cognitiva"]
+  },
+  {
+    "id": 35,
+    "nome": "Rafael da Cruz",
+    "foto": "/src/assets/fotos/rafael.webp",
+    "cargo": "Desenvolvedor Backend (Node.js)",
+    "localizacao": "Remoto",
+    "avaliacao": 4.6,
+    "disponibilidade": "Disponível",
+    "area": "Engenharia de Software",
+    "resumo": "Desenvolvedor backend com foco em performance e escalabilidade. Trabalha construindo APIs resilientes, integrando serviços complexos e otimizando sistemas de alto tráfego.",
+    "experiencias": [
+      { "cargo": "Backend Engineer", "empresa": "LogiTrack", "inicio": "2020", "fim": "Atual", "descricao": "Implementação de pipelines de eventos, otimização de serviços Node.js e integração com mensageria para sistemas de logística em tempo real." }
+    ],
+    "habilidadesTecnicas": ["Node.js", "TypeScript", "PostgreSQL", "Redis", "Kafka", "Express"],
+    "projetos": [],
+    "softSkills": ["Pensamento Estratégico", "Comunicação Clara", "Autonomia"],
+    "formacao": [
+      { "curso": "Ciência da Computação", "instituicao": "UFSC", "ano": "2019" }
+    ],
+    "certificacoes": ["Node.js Services Developer Foundation"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Arquitetura de Software", "Sistemas Distribuídos", "Mensageria"]
+  },
+  {
+    "id": 36,
+    "nome": "Gabriela Cattuzzo",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdkA_NvVpuuNrUUe1uy_zfRyRqCTEkLvoQO53apZBSmxnjW48wzk5-FKgtRYBZR7QZldw&usqp=CAU",
+    "cargo": "Desenvolvedora Frontend (Angular)",
+    "localizacao": "São Paulo, Brasil",
+    "avaliacao": 4.4,
+    "disponibilidade": "Limitada",
+    "area": "Tecnologia Educacional",
+    "resumo": "Especialista em desenvolvimento de interfaces educacionais usando Angular. Experiência em criar plataformas escaláveis e acessíveis para aprendizagem digital.",
+    "experiencias": [
+      {
+        "cargo": "Desenvolvedora Angular",
+        "empresa": "EdTech Solutions",
+        "inicio": "2018",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de plataformas de ensino online com foco em performance e acessibilidade."
+      }
+    ],
+    "habilidadesTecnicas": ["Angular", "TypeScript", "RxJS", "NgRx", "Acessibilidade Web"],
+    "projetos": [],
+    "softSkills": ["Colaboração", "Comunicação", "Pensamento Analítico"],
+    "formacao": [
+      { "curso": "Engenharia de Computação", "instituicao": "USP", "ano": "2017" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["EdTech", "Plataformas Educacionais", "UI/UX Educacional"]
+  },
+  {
+    "id": 37,
+    "nome": "Kalledy Assad",
+    "foto": "https://i.scdn.co/image/ab676161000051742cabcd5d5ab0c6b6ad09b8ea",
+    "cargo": "Arquiteto de Soluções AWS",
+    "localizacao": "Remoto",
+    "avaliacao": 4.9,
+    "disponibilidade": "Disponível",
+    "area": "Arquitetura de Software",
+    "resumo": "Quando me cadastrei coloquei essa foto e agora to com preguiça de mudar (foi mal). Arquiteto de Soluções certificado AWS (Professional). Ajudo empresas a desenhar, migrar e otimizar suas cargas de trabalho com foco em boas práticas de arquitetura de software.",
+    "experiencias": [
+      {
+        "cargo": "Arquiteto de Soluções",
+        "empresa": "AWS Partner",
+        "inicio": "2017",
+        "fim": "Atual",
+        "descricao": "Desenho de arquiteturas multi-conta, modernização de aplicações e governança de ambientes."
+      }
+    ],
+    "habilidadesTecnicas": ["AWS", "Terraform", "Serverless (Lambda)", "Redes", "Segurança", "Migração", "Boas Práticas de Arquitetura"],
+    "projetos": [],
+    "softSkills": ["Visão Estratégica", "Comunicação", "Liderança Técnica"],
+    "formacao": [
+      { "curso": "Engenharia de Telecomunicações", "instituicao": "INATEL", "ano": "2015" }
+    ],
+    "certificacoes": ["AWS Certified Solutions Architect - Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Arquitetura de Software", "Serverless", "Modernização de Aplicações"]
+  },
+  {
+    "id": 38,
+    "nome": "Lucas Martins",
+    "foto": "/src/assets/fotos/lucas.jpg",
+    "cargo": "Agile Coach / Scrum Master",
+    "localizacao": "Rio de Janeiro, Brasil",
+    "avaliacao": 4.8,
+    "disponibilidade": "Disponível",
+    "area": "Produto e Agilidade",
+    "resumo": "Agile Coach com foco em destravar o potencial de times. Especialista em Scrum, Kanban e métricas ágeis. Facilito a transformação ágil em nível de time e programa.",
+    "experiencias": [
+      { "cargo": "Agile Coach", "empresa": "Digital Hub", "inicio": "2019", "fim": "Atual", "descricao": "Coaching de times de desenvolvimento e produto." }
+    ],
+    "habilidadesTecnicas": ["Scrum", "Kanban", "Métricas Ágeis (CFD, Lead Time)", "JIRA", "Facilitação"],
+    "projetos": [],
+    "softSkills": ["Liderança Servidora", "Comunicação", "Resolução de Conflitos", "Empatia"],
+    "formacao": [
+      { "curso": "Psicologia", "instituicao": "UFRJ", "ano": "2014" }
+    ],
+    "certificacoes": ["CSM", "CSPO", "KMP I & II"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Agilidade", "Cultura Organizacional", "Psicologia"]
+  },
+  {
+    "id": 39,
+    "nome": "Zacarias Tadeu",
+    "foto": "https://i1.sndcdn.com/artworks-rLKRNnhtUiedqlbk-JPJq4w-t500x500.jpg",
+    "cargo": "Especialista em Observabilidade & SRE",
+    "localizacao": "Rio de Janeiro, Brasil",
+    "avaliacao": 4.8,
+    "disponibilidade": "Disponível",
+    "area": "SRE / Observabilidade",
+    "resumo": "Especialista em observabilidade, confiabilidade e engenharia de plataforma. Ajudo empresas a construir pipelines resilientes, monitoráveis e escaláveis usando práticas de SRE.",
+    "experiencias": [
+      { "cargo": "SRE", "empresa": "InfraTech Cloud", "inicio": "2020", "fim": "Atual", "descricao": "Implementação de observabilidade e automação de infraestrutura em plataformas críticas." }
+    ],
+    "habilidadesTecnicas": ["Prometheus", "Grafana", "Elastic Stack", "Kubernetes", "CI/CD", "Linux", "SLO/SLI"],
+    "projetos": [
+      { "titulo": "Plataforma de Observabilidade", "descricao": "Construção de stack unificado de métricas, logs e traces para 35+ microsserviços.", "link": "#" }
+    ],
+    "softSkills": ["Pensamento Sistêmico", "Calma sob Pressão", "Comunicação Técnica"],
+    "formacao": [
+      { "curso": "Engenharia da Computação", "instituicao": "UFF", "ano": "2017" }
+    ],
+    "certificacoes": ["CKA", "KCNA"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["SRE", "Observabilidade", "Automação", "Plataformas Escaláveis"]
+  },
+  {
+    "id": 40,
+    "nome": "Jarad A. Higgins",
+    "foto": "/src/assets/fotos/jarad.jpg",
+    "cargo": "Creative Technologist / Especialista em IA Generativa",
+    "localizacao": "Remoto",
+    "avaliacao": 4.9,
+    "disponibilidade": "Limitada",
+    "area": "Criatividade Digital",
+    "resumo": "Criativo multidisciplinar que mistura tecnologia, música e storytelling para transformar emoções em experiências digitais e protótipos usando IA generativa.",
+    "experiencias": [
+      { "cargo": "Creative Technologist", "empresa": "FlowLabs Studio", "inicio": "2018", "fim": "Atual", "descricao": "Desenvolvimento de experiências interativas e musicais utilizando IA e ferramentas digitais." }
+    ],
+    "habilidadesTecnicas": ["IA Generativa", "Python", "ML", "Produção Musical", "Storytelling", "Prototipação Criativa"],
+    "projetos": [
+      { "titulo": "Emotion-to-Sound", "descricao": "Sistema que converte texto emocional em paisagens sonoras usando IA.", "link": "#" }
+    ],
+    "softSkills": ["Criatividade Intuitiva", "Empatia", "Improvisação", "Expressividade", "Autenticidade"],
+    "formacao": [
+      { "curso": "Produção Musical e Computação Criativa", "instituicao": "Instituto Digital Harmonia", "ano": "2017" }
+    ],
+    "certificacoes": ["Creative AI Fundamentals"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Nativo" }],
+    "areaInteresses": ["IA Criativa", "Storytelling", "Música Digital", "Ferramentas Interativas"]
+  },
+  {
+    "id": 41,
+    "nome": "Jahseh Onfroy",
+    "foto": "/src/assets/fotos/jahseh.jpg",
+    "cargo": "Artista Multidisciplinar / Especialista em Som & Experiências Digitais",
+    "localizacao": "Remoto",
+    "avaliacao": 4.9,
+    "disponibilidade": "Limitada",
+    "area": "Criatividade Digital",
+    "resumo": "Profissional com foco em criação emocional e imersiva. Combina áudio, narrativa e tecnologia para desenvolver experiências digitais intensas e autênticas.",
+    "experiencias": [
+      { "cargo": "Creative Experience Designer", "empresa": "Eclipse Studio", "inicio": "2018", "fim": "Atual", "descricao": "Criação de experiências interativas baseadas em som, atmosfera e impacto emocional." }
+    ],
+    "habilidadesTecnicas": ["Design de Som", "Produção Musical", "Prototipação Digital", "Python", "Edição de Áudio", "Storytelling Imersivo"],
+    "projetos": [
+      { "titulo": "DeepSense", "descricao": "Experiência digital que une música, emoções e respostas sensoriais em tempo real.", "link": "#" }
+    ],
+    "softSkills": ["Intensidade Criativa", "Autenticidade", "Visão Artística", "Expressividade", "Autoconhecimento"],
+    "formacao": [
+      { "curso": "Artes Digitais e Produção de Som", "instituicao": "Instituto Harmonia", "ano": "2017" }
+    ],
+    "certificacoes": ["Digital Sound Design Pro"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Nativo" }],
+    "areaInteresses": ["Criatividade Emocional", "Som Digital", "Experiências Imersivas", "Arte Experimental"]
+  },
+  {
+    "id": 42,
+    "nome": "Oliver T.",
+    "foto": "/src/assets/fotos/oliver.jpg",
+    "cargo": "Creative Engineer / Diretor de Experimentos Visuais",
+    "localizacao": "Los Angeles, EUA",
+    "avaliacao": 3.7,
+    "disponibilidade": "Disponível",
+    "area": "Criatividade & Experiência Visual",
+    "resumo": "Criador e inovador que combina performance, estética excêntrica e tecnologia para desenvolver experiências visuais únicas e memoráveis.",
+    "experiencias": [
+      { "cargo": "Creative Engineer", "empresa": "OddFuture Labs", "inicio": "2017", "fim": "Atual", "descricao": "Desenvolvimento de conceitos visuais, performances experimentais e projetos digitais disruptivos." }
+    ],
+    "habilidadesTecnicas": ["Direção Criativa", "Edição de Vídeo", "After Effects", "Prototipação", "Design Experimental", "Storytelling Visual"],
+      "projetos": [
+        { "titulo": "HyperMotion", "descricao": "Projeto visual que combina movimentos exagerados, estética surreal e narrativa humorística.", "link": "#" }
+      ],
+    "softSkills": ["Originalidade", "Criatividade Radical", "Humor", "Improvisação", "Expressividade"],
+    "formacao": [
+      { "curso": "Cinema & Mídias Digitais", "instituicao": "CalArts", "ano": "2016" }
+    ],
+    "certificacoes": ["Creative Direction Advanced"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Nativo" }],
+    "areaInteresses": ["Arte Experimental", "Performance", "Vídeo Criativo", "Design Não Convencional"]
+  },
+  {
+    "id": 43,
+    "nome": "Pedro Henrique Magalhães Frade",
+    "foto": "/src/assets/fotos/pedro.webp",
+    "cargo": "Engenheiro de Software",
+    "localizacao": "São Paulo, Brasil",
+    "avaliacao": 2.7,
+    "disponibilidade": "Disponível",
+    "area": "Tecnologia",
+    "resumo": "Engenheiro de Software com foco em soluções escaláveis e alto desempenho. Apaixonado por arquitetura, boas práticas e desenvolvimento orientado a impacto.",
+    "experiencias": [
+      { "cargo": "Software Engineer", "empresa": "TechHub Solutions", "inicio": "2020", "fim": "Atual", "descricao": "Desenvolvimento de serviços backend escaláveis e integrações de alto volume." }
+    ],
+    "habilidadesTecnicas": ["Node.js", "TypeScript", "Java", "PostgreSQL", "Docker", "Arquitetura de Software"],
+    "projetos": [
+      { "titulo": "CoreFlow", "descricao": "Plataforma modular para orquestração de serviços e APIs.", "link": "#" }
+    ],
+    "softSkills": ["Pensamento Estrutural", "Comunicação", "Colaboração", "Adaptabilidade"],
+    "formacao": [
+      { "curso": "Engenharia de Computação", "instituicao": "PUC-SP", "ano": "2019" }
+    ],
+    "certificacoes": ["Arquitetura de Software Avançada"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Arquitetura", "Backend", "Sistemas Distribuídos", "Alta Performance"]
+  },
+  {
+    "id": 44,
+    "nome": "Rafael Lange",
+    "foto": "https://www.famousbirthdays.com/faces/lange-rafael-image.jpg",
+    "cargo": "Criador de Conteúdo / Game Designer",
+    "localizacao": "São Paulo, Brasil",
+    "avaliacao": 4.9,
+    "disponibilidade": "Limitada",
+    "area": "Entretenimento Digital",
+    "resumo": "Streamer e YouTuber com espírito de puzzle-master, especializado em enigmas, RPGs narrativos e experiências interativas para comunidades online.",
+    "experiencias": [
+      { "cargo": "Streamer / YouTuber", "empresa": "Cellbit", "inicio": "2012", "fim": "Atual", "descricao": "Produção de vídeos, criação de narrativas enigmáticas e campanhas de RPG com sua comunidade." }
+    ],
+    "habilidadesTecnicas": ["Game Design", "Storytelling", "Produção de Vídeo", "Edição", "Engajamento de Comunidade"],
+
+
+    "projetos": [
+      { "titulo": "0̵͍͚͎͙͇̻̜̰̟͊̾͜͠1̴̧̣̳̣̈́͑͆̄̏́̂̀̈́̍̀͜0̴̢͖̯̬̙̫̰̱͖̲̓̅̀̈̒̀̕ͅ0̴̨̡̨̭̣̜̰̙̫̲̘͚̱̯̂͊̐͊̓̑̿̆̒̿̽̃̇͝1̸̨͈̳̭͕̮̳̹͌̏̃̐̋̃̔̂̎̏̕͘͘̚̕1̵̥̬͕͇̼̲͛́͗̀͒͋̋̃̀̚͝1̷̨̡̳͉̜̟͕͙̰̩̩̺̫̹̹̭͉͗̈́̀̐̒̌̐̍̂͊͛̾̀͑͘͠͝1̴͕͊̒͋̌͂͌ ̷̧̡̗̤͚̩̖̳̾̔̒͆̄́̂̚0̷̡̺͔͇̙͖̙͈̱̯̯̲͙̟̮̘̇͒̚1̷̡͓̼͎̲̹̪̯̏̋͐̅̚͝1̶̪̮̰͕̝̲̀̾̏̒͋̿͐́̊̌̏͋1̸̨͈̱̟͍͇̬͆̔̃̔́̔͋̐̿̉̆̆̏̒͠ͅͅ0̷̧̼̺̦̺͚͔̼͕̲̅̀̃̓͛͌̆͌̒͐0̶̱̪̒͗͒̆̑̐͒̋͋̂̐̾́͆̆̚͝1̷̳̜̙̯̼̜̬͇̱̟̱͔͖͋0̷̪͆̔̋̐̈́̈̋ ̴̢̳͝0̷̨̬̰̥̫̻͔̈́̏1̴̰̳̪̺͋̌͛̋̀̓̇̂͜͠͠1̴̡̼̜͚͕͓̹̝̥̭̹͍̜͖͆̈̈́̋̑̈́͂͆̊̈́͘͘͜0̷̡̲̫͕͙͍̘̭̣͚͇̩̈́͌̎̎̋̈́̋̿͊̽̎̾̓͜ͅ0̴͖̮͔̞̤̉̀͗̿̀̈́͂̈́̔̈͋̓͝1̶͇̟̫̺͙̜̪̘͔̙̙̖̼̣͌͐̄͑̿͘͜0̷̟̃̐͋̉̓̑̇́͑̀̒͐͊̈͗̿͆0̴̡̢̛̞̙̳̪̝̲̥̞̭̲̺̮̺̥͒̔ ̷̧͍̣̱̦͍̯̬͗̔͐̔̈́̆͒̾̅̍̆͛͆̾͝͝ͅ0̷͎̳̗͍̠̒̓̎̇̒̍͘1̸̫̱̣̫̥͚̞̝̊̓̿̊1̵̧̡̨̢͉̖̟̯̮͎̺̰̭͚̱͊́͂̏͗̃̓̿͒̓̕̕͜ͅ0̵̡̢̛̳͔̩͖̩̞̘̈́̾̏̉͌̉̇͜0̸̧̧̠̝̯̮͇̫̞̤̲̖̝̙̒́͌́ͅͅ1̴͈͉̹͉̙͇͚̿̔0̸̧̛̞͍͚̝̳̦͉́̉̒̈́͋͆̿̈͠1̴̧̤͔̹̞̤̯̠̞̻̼̋͊̕ͅͅ ̷̨̹̜̥̣͙̙͕̇̋̓̉̑̈́͐̚̚͠0̵̢̣̮̣̇̒͌̉͊̌̌̓̑͛̀͠ͅ1̸̤͉̟͈͉̦̲̥̪̠͈̩̝̌̇̿͒̅̒̿̇̄̅̓̊̒̎̾̕1̴̙̰̩̹̬̻̳̘͓̥͉̹͇͒̉̆0̸̠̙͇̳̣͓͒̐̈́̏̓̇͑͘1̸̯̘̹̳̉͊͊́͒͋̅̕͝1̵̼̣̏̈̃́͘͠0̶̧̧̧̧̳̞̻̦͔̒͋́̓̿̃̽̏̕1̸̢̞̟̞͇̠͍̼̳̩̤̆̅̾͑̈́̇̄̌̈́̐̕͘͘͜͝ ̵̡̲̯̤̝̜̭͇͎̬̻͕̲͒͘͜͜ͅͅ0̶̧̡̛̺̬̬̬̘̫̱̫̮̯̱̼̅͛̾̓͋̑0̵̧̡̧̲͔̻̫͎͚͖̪̰̥̲͍͓͂̀͗̑͐͛͜1̵̠̲͍́̄̈́̋̃̀̒͋̌̀̿͒̐͘0̶͍͉̥̹̳̺̺͙̰̥͈̈́͆̒͋͜0̶͕̝̺̳̦̦̿͋̂̆̎̄͘͝0̶̢̨̘̜͓̻̱̮͇͉̟̞̖̦̣̙͓̀͊̃̓͒0̶̧̛̛͈͖̼̺͉̫̖̱̼̇̂̾̍̑͗̃͊͜0̵̻̝̰͖̻̙̮̣̙̾̋͒͆͊͌͘̚ ̴̢͚̦͇̗̫͔̌͐͑̅̒͑̈̀̽͛͋̚̕͘͝͝0̵̨̨̨̢̺̗̫̫̫̳̓͂̂̆̀͜1̵̝͔̳̫̔̃͘0̶͙̪͔̻͚͇̹͈̻̠̯͐̐́̔͋̋͜͜1̸̢̪̼̟̙̟̫͉̠̹͉̾̈́̓0̶͖̝̬̗͈͉̤͍̙̰̗̻̖͝ͅ0̶̢̰̤͉̭̝̭͓̥͎͍̟̜̖̐̄́̊͊̂̃͐͛̂͌͗̕̚͝0̸̡̣̪̱̹̣̜͕̟͙͖͈̗͍̜̳͑͛ͅ0̶̢̖̞̪̳͍̊̓̏̿̽̏̈̚ͅ ̷̨̨̺͉͚͍̣̙̗̲̎0̷̛̰̥̭̝̼̼͖͇͍̘͔̝̦̻̈͊͂̐́͂̐̒̉͊̿͘͜͝1̶̧̤̬̝̘͖̙̰̤̣̤͈̣̼̠̞̍͊̈́̃͑̍̓̐͊̈́̾̑́ͅ1̸̧̘̫̤̞͓̹̺̻̏̉̓̽͒̋̚͘0̴̛̭͔͙͈͍͖̯̦̣̔̾̀̾̄͋͛̈́̓̾̃̋̿0̴̢̨̖̻̩̱̱͓͈̩͒̈́̃͂̂̅͗́͝0̸̧̯͈͈͓͖̤̩̺͍̋͆̂̄̀̆̉́́̅͗̒͐̊̚͜ͅͅ0̸͈̝̳͓̖̌̇͌̊̆̽͆̉̾̐͗̌́̍͊1̷̨̫̹̲͔͎̙̪̬̫̤͔͖̤͉̒̽͆͒͑̚͠ ̸̨͚̦̹͕̩̍͌͌͗͐̚0̶̫̺̠̑̋̈́̿̿̅1̴̛̻̥̼̯̆͌̽̒͊̒̈́͆̓̍̇͌̇̇͠͝1̵̧̛͇̲̗͔͕̞̜͌͌͜1̶̢̧̥̳͓̹͉̥̼̭̰̠̲̙͑͜0̸̦͓̥̤̪͍͎̱͉͇̮̽́͂́̽̋̈́̌̽̏̾́͛͋̈́ͅ0̷̟̒̄͊͗̿̉̈́̅͘͝͝ͅͅ1̶̪̗̜͍̦̱͇͓̪͚̊͛͛̉̓̈́̓͜͝͝ͅ0̷̡̖̲̣̯͍̥͖͚̳̯͖͍̹̺̠̆̌̓͌̓̈́̌̌̓̄͂̑̎̉̿̕͝ ̴̧̻̬̖͉͙̭͉͚̥̞̊̋̉͋̉̓̔̈́̈̃͗̈́̾͐̃͠0̸̡̧̛̛̛̺̦͈̹͈̪̺̜͇͙̝́̔͛̂̈́̑̆̚̚̚͝ͅ1̴̧̧̣̹̤̱̠̱̹͙̜̳̳̤̟͔͂̆͌̋̾̂̽͐̂̊̈́̈́͛̎̕1̵̰̲̃̌̓̑0̴̝̟̥̜̺͈̩̖͙̯͎̦̿̆̄̋̂͆̚0̵̠̇̊̊̆͐̽̈́̊̚̚͠0̷̨̨̳̱̣͎̦̼̗̜̳̝͖͙͇̞̇͐̾͐̌̿̈́͂̎͝͝ͅ0̶̛̪̬̬̬̬̱̺͖̩͍̞͉͔͑̈́̄̿̋̋̊͗̋ͅͅ1̴̙͓̍͗̐̔̅̌͌ͅ ̶̨̨͕͎̼̟̜̗̞̰̺̼̣̝̗͓̣͌͑̅0̶̢͕͎̟̠̞̜̣̫̭̼͈̪͚̈́͜͜1̶̧̟̟͕͚̘̠͉̫̗͐͗1̷̛̮̿̎0̷̨̨̠͇͍̩͚̖̯̪͓̮͖̞́͂̈́̃͒͋̍̚1̶̡̧͕͖͔̯͎̰̙͉̫̻͔̺̮̟̜̓̓̀̽̀͂͋̈́̈̓̀1̶̗͉̟̻̰̝̽͂̂͋̂̓̕͘1̵̤͆0̸̡̧̤͈̳̒̏̓̔̃̈́̇͋͛̂͌̚͝ ̶̧̢͎̪̤̮̝̥͙͚̌́́̃̓̑̋͑͠͝0̵͉̰̓̅́̃͑́1̸͕̬̻͖͓̺͈̫͉̯̐͆̃̾̓̎̾̍͜1̶̛̛͉̣̅̈́̍̾͝0̸̥̮̬̯͎̯͈̜̪̌̄̐̾̓̂͐̐̆͝1̷̯͎̦̩̈̓͂̃͐̊̓̊́̂̃̚1̶̢̗͎̹̦̎̈́̾͜1̷̡͉͍́̈́̀͛͒̍͗͗̕̕͝1̴̡̨̠̗̭̹͈͉̥̞͎̮̬̂̀̋̍̾̓̽̍͐̑̽̀̓ ̵̧̨͍̣̬͓̺͋̿̃̿͘0̸̼̣̣̓́̄̓̽̎1̷͍̈͊̎̊̏̑͌̈́̇̅̈̓̈́̒̒̚̚1̴̫̩̲̮͑̀̊̔̓͐̈͛̐͊̀͛̕1̸̦̦̠̗̯̞̪̣̲͓̩̂̀͂̄0̵̡̬̪̫̞̯̻̪̳̻̬̃̅̈́͂̄͆̌̍͌̚ͅ0̷̧͉̫̭͎͕͙̩̺̩͇͙̳͚̱͉͆̀͜1̸̡̢̟̦̙͍̲̖̭̾͑́̓̽͌͗̽̊̔͠0̶̧͙̮̄͑͝ ̴̼̳̙̠̟̥̳̇̂̅͂͑̅̒̐͌̔̌̔͌0̴̧̲̞͈̳͉̼̫͕͐̃͋̾̈͌͗͛͆̋̓͆̌͊̓͝͝1̸̨̰͎̹̗͔̟̬̺̲̤̯̠͇̲̼̀͋̑̔̉́̈́̈́̉͝1̴̨̡̛͈̳̼̟͚̫̖͖̘̠͍͇̮̓͆͊̀̍̆̓̐́͜0̴̯̤̅̃̏́̀͐̍̄̏͘1̷̧̡̧̞̠̦͓͉̠͚̣͉̒̎͌̊͛̈́͆̓̀ͅͅ1̷̢̜̣̥̬̤͚̻͎̪̝̲̤̜̻͛̄͑͛̈́̍̔̈́̾̏̂̏̚͜͠ͅ0̵̨̻͙̫̖͇͓͐̿̆̐͠ͅ1̷̢͕͚͔̱̭͕̟̜̠̲̼̓̋̄̊̈́̍̅̑̀͐͠͝ ̷̨͉̤̯̮̤̥̯̠͇̰͚̘͎̽͐̋͆̐͂́̎̌͘ͅ0̵̡͖͓͙͈͈͍̰͍͗͛͛̈́̄̀̎̈́͗̾̕͝ͅ1̵̢̨͓̪̰̪͍̜͖͙͍̻͌̐̽̿͑̈́̽̓͌́̒̈͆̓͜͝1̸͍͙̦̳̦̋͘͝0̸̛͖̯̰͌͂̽̉́͘0̴̨̢̤͓̻̬͓̝̳͈̯͍̊͗͜͜͜0̶̨̗͖͇̠̘͖̖̣͖̾̂̀͂̄̍̈͑̄͐͗̐̕͘͝͠͠0̸̡̭͍̦̟͕͍͚̫̜̻̪̈̏͜1̶̡̱̭͍͙͕̫͔͕̱̭̝͖͕͖͍͖̃͒͒̀̓͐̇̽̊̀̑̆́̎̎̿͘ ̴̨̨̳͈͚̦̲̹̲͍̪͍͓̲̐̊̄̆͋̎̒̿̽̀0̷̡̧͇̫̝͍̪̥̘̮̳̭̔̓͊̍̕͜1̷̢̡̝̟͉͓̼̙̦͍͔̫̠̤̦͛̀̊̄͊̎̓̑̒̓̏͒̏͋1̵̡̡̭̠̮̙͇̞͖̟͍͆͆̅́̏́̌̚͜0̴̡̢̫̰͍̹̩̫̹͓͖͉̳̹͆́̈́̈́̇͒̔̀̓1̸̢̡͉̘̦̰̠̳̗͎͙̦̘̒̀1̴̨͎̞̬̲̲̟̤̯̘̹͖͈͉̲̐̀̐̂̈́̿̂̇̈̀̓0̵̞̜̟̖̜̹̘̒͑͛̎̚̕ͅ0̴̡͉̗̗̼̦͚̰̖͉̬͍̈́̓̇͝ ̶̢̛͓̖̘̗̯̞̟͉͎̒̐͑͑̿̒̑̾͘͠0̴̤̬̻̼̲͉̻̗̫̖͈̖̖͍͆̅̿̆̈́̑͐͠͝0̸̧̢̨̛̜͈̩͍̹̩̠͓̘̎͂̌͑̽̆̆͂͝0̴͎̿0̷̛̗̹͖̺̮̘͇͍̦͉̞̺͓̀͒͂̈́̀̂̓̾̄̎̈́̚͘͝1̸̨̭̜͙̮̤̖̣̙̙͍̂̓̀̋̓̈̋̿̐̕͘ͅ0̴̨̞̤̹̭̮̖̼̮̻͙̟͆͊͋͛́̈́̑̇́͗̒̈́͂͠͝1̴̛̫̬̭̦̲͓̱̫͙̻̲̉̓͒̾̓̈͂̎̂̄͘͘0̸̭̠̞͈͎̦̮͇̻̩̗̪͔̉̅̽͋̐̄͋́͊͆͗̔́̓͐͝ ̴̨̧̜͙̱̦̘̎̈́̉́͐̆͑̐̋̉͘͠͠", "descricao": "inim maḫ gig galam KA-ka dug₄-ga ni₂-te-a sa₂-sa₂.", "link": "#" }
+    ],
+
+
+    "softSkills": ["Curiosidade", "Empatia", "Criatividade", "Comunicação", "Liderança Comunitária"],
+    "formacao": [{ "curso": "Jogos Digitais", "instituicao": "Universidade Aberta Digital", "ano": "2018" }],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Enigmas", "Mundos Narrativos", "Streaming", "Construção de Comunidade"]
+  },
+  {
+    "id": 45,
+    "nome": "Lee Sang-hyeok",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Faker_2020_interview.jpg",
+    "cargo": "Especialista em Estratégia e Alta Performance",
+    "localizacao": "Seul, Coreia do Sul",
+    "avaliacao": 4.9,
+    "disponibilidade": "Indisponível",
+    "area": "Estratégia e Liderança",
+    "resumo": "Profissional reconhecido internacionalmente por sua capacidade excepcional de tomada de decisão, pensamento estratégico e desempenho consistente sob pressão.",
+    "experiencias": [
+      { "cargo": "Estrategista Sênior", "empresa": "T1 Group", "inicio": "2013", "fim": "Atual", "descricao": "Atuação em análise estratégica, resolução de problemas complexos e liderança em cenários de alta competitividade." }
+    ],
+    "habilidadesTecnicas": [
+      "Tomada de Decisão",
+      "Análise",
+      "Coordenação de Equipe",
+      "Gestão de Pressão",
+      "Planejamento Estratégico"
+    ],
+    "projetos": [],
+    "softSkills": ["Disciplina", "Liderança", "Calma Sob Pressão", "Raciocínio Estratégico"],
+    "formacao": [],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Coreano", "nivel": "Nativo" },
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Estratégia", "Desenvolvimento de Alta Performance", "Tomada de Decisão"]
+  },
+  {
+    "id": 46,
+    "nome": "Alexander T.",
+    "foto": "https://upload.wikimedia.org/wikipedia/en/a/a2/Technoblade_at_his_dad%27s_wedding.jpg",
+    "cargo": "Especialista em Estratégia Competitiva e Performance",
+    "localizacao": "Remoto",
+    "avaliacao": 4.9,
+    "disponibilidade": "Limitada",
+    "area": "Estratégia & Competição",
+    "resumo": "Profissional de alta performance com profundo entendimento de tática, tomada de decisões sob pressão e liderança em ambientes competitivos intensos.",
+    "experiencias": [
+      { "cargo": "Consultor Estratégico", "empresa": "Blade Strategies", "inicio": "2016", "fim": "Atual", "descricao": "Desenvolvimento de planos estratégicos, coaching de equipes em momentos críticos e orientação para execução de alto risco." }
+    ],
+    "habilidadesTecnicas": ["Tomada de Decisão", "Planejamento", "Gestão de Riscos", "Análise", "Liderança de Equipe"],
+    "projetos": [
+      { "titulo": "Programa de Alto Desempenho", "descricao": "Treinamento estratégico para líderes em ambientes competidores e de alta pressão.", "link": "#" }
+    ],
+    "softSkills": ["Resiliência", "Calma Sob Pressão", "Comunicação Estratégica", "Pensamento Crítico"],
+    "formacao": [
+      { "curso": "Ciência da Computação", "instituicao": "Universidade Técnica", "ano": "2014" }
+    ],
+    "certificacoes": ["Gestão Estratégica Avançada"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Nativo" }],
+    "areaInteresses": ["Desempenho Competitivo", "Treinamento Executivo", "Estratégia de Negócios"]
+  },
+  {
+    "id": 47,
+    "nome": "Pedro Pedro",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV1RNnx-_r08y4TWcVMwWOlIzMkg5gr1Fi9RTf1CqlF-2lCIQVeHxfYfdxs-lTULo9EOo&usqp=CAU",
+    "cargo": "Engenheiro de Software / Mentor Técnico",
+    "localizacao": "São Paulo, Brasil",
+    "avaliacao": 4.5,
+    "disponibilidade": "Disponível",
+    "area": "Tecnologia & Mentoria",
+    "resumo": "Sim esse é meu nome mesmo. Desenvolvedor apaixonado por código limpo, colaboração e crescimento técnico. Ajudo outros a evoluir suas habilidades e a superar desafios complexos.",
+    "experiencias": [
+      { "cargo": "Desenvolvedor Backend", "empresa": "InovaTech", "inicio": "2019", "fim": "Atual", "descricao": "Construção de APIs e microserviços, otimização de performance e arquitetura escalável." },
+      { "cargo": "Mentor de Juniors", "empresa": "CodeStart", "inicio": "2021", "fim": "Atual", "descricao": "Apoio e treinamentos para novos desenvolvedores, code reviews e orientação de carreira técnica." }
+    ],
+    "habilidadesTecnicas": ["JavaScript", "Node.js", "TypeScript", "Arquitetura de Software", "Testes Automatizados", "Docker"],
+    "projetos": [
+      { "titulo": "API de Insights", "descricao": "API para análise de dados internos de uma plataforma SaaS.", "link": "#" }
+    ],
+    "softSkills": ["Colaboração", "Empatia", "Comunicação Didática", "Resiliência"],
+    "formacao": [
+      { "curso": "Sistemas de Informação", "instituicao": "USP", "ano": "2018" }
+    ],
+    "certificacoes": ["Certified JavaScript Developer"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Mentoria Técnica", "Desenvolvimento Backend", "Open Source"]
+  },
+  {
+    "id": 48,
+    "nome": "Inio Asano",
+    "foto": "https://images.mubicdn.net/images/cast_member/388041/cache-515005-1582206747/image-w856.jpg",
+    "cargo": "Artista Narrativo / Escritor de Experiências Humanas",
+    "localizacao": "Ibaraki, Japão",
+    "avaliacao": 4.8,
+    "disponibilidade": "Limitada",
+    "area": "Narrativa & Criação Visual",
+    "resumo": "Mangaká renomado por retratar a juventude, a melancolia e os dilemas existenciais com profundidade sensível e realista.",  
+    "experiencias": [
+      { "cargo": "Mangaká", "empresa": "Freelance", "inicio": "1998", "fim": "Atual", "descricao": "Criação de obras como *Solanin*, *Goodnight Punpun* e *Downfall*, explorando temas humanos complexos." }
+    ],
+    "habilidadesTecnicas": ["Desenho Narrativo", "Roteiro", "Psicologia de Personagens", "Design de Cenário", "Temática Realista"],
+    "projetos": [
+      { "titulo": "Solanin", "descricao": "Manga slice-of-life sobre a transição para a vida adulta." },
+      { "titulo": "Goodnight Punpun", "descricao": "Obra dramática com profundidade emocional e existencial." }
+    ],
+    "softSkills": ["Empatia", "Sensibilidade", "Reflexão Profunda", "Persistência Criativa"],
+    "formacao": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Japonês", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Arte Contemplativa", "Realismo Psicológico", "Histórias de Vida", "Auto-Reflexão"]
+  },
+
+  {
+    "id": 49,
+    "nome": "Marc Merrill",
+    "foto": "https://www.riotgames.com/darkroom/1200/37908c1557254cd9f18662e3c731f344:834d85640b51b1b0218e56d846ec7195/marc.jpg",
+    "cargo": "CPO & Estratégia de Produto",
+    "localizacao": "Los Angeles, EUA",
+    "avaliacao": 4.9,
+    "disponibilidade": "Limitada",
+    "area": "Desenvolvimento de Produto / Estratégia",
+    "resumo": "Co-fundador da Riot Games com missão de colocar o jogador no centro de tudo. Conduz a visão de produtos com foco em ecossistemas de jogos e entretenimento.",
+    "experiencias": [
+      { "cargo": "Chief Product Officer", "empresa": "Riot Games", "inicio": "2023", "fim": "Atual", "descricao": "Responsável pela estratégia de produtos, alinhando gameplay, esports e entretenimento." },
+      { "cargo": "Co-fundador & Co-Chairman", "empresa": "Riot Games", "inicio": "2006", "fim": "Atual", "descricao": "Construção da empresa desde zero até uma líder global em jogos e entretenimento." }
+    ],
+    "habilidadesTecnicas": ["Visão de Produto", "Estratégia Corporativa", "Planejamento", "Liderança de Equipe", "Inovação"],
+    "projetos": [
+      { "titulo": "Arcane (Produção Executiva)", "descricao": "Série animada baseada no universo de League of Legends." }
+    ],
+    "softSkills": ["Empatia com Usuário", "Comunicação Estratégica", "Pensamento de Longo Prazo", "Resiliência", "Liderança Visionária"],
+    "formacao": [
+      { "curso": "Negócios", "instituicao": "University of Southern California", "ano": "1998" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Nativo" }],
+    "areaInteresses": ["Jogos como Serviço", "Esports", "Desenvolvimento Sustentável", "Entretenimento Digital"]
+  },
+
+  {
+    "id": 50,
+    "nome": "Lucas Demetrius",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGa02PWewqoez0F8ez-T3ULDWC4gups96jBA&s",
+    "cargo": "Engenheiro Full Stack / Mentor Técnico",
+    "localizacao": "Brusque, Brasil",
+    "avaliacao": 4.8,
+    "disponibilidade": "Disponível",
+    "area": "Desenvolvimento de Software",
+    "resumo": "Engenheiro Full Stack com sólida experiência em construção e manutenção de aplicações web. Mentor comprometido em ajudar desenvolvedores a evoluir tecnicamente e estruturar projetos escaláveis.",
+    "experiencias": [
+      { "cargo": "Desenvolvedor Full Stack", "empresa": "Flowti Tecnologia", "inicio": "2019", "fim": "Atual", "descricao": "Desenvolvimento de backend, frontend e APIs para soluções empresariais." }
+    ],
+    "habilidadesTecnicas": ["JavaScript", "TypeScript", "React", "Node.js", "APIs REST", "Banco de Dados"],
+    "projetos": [
+      { "titulo": "Plataforma Interna", "descricao": "Solução web para gerenciamento de clientes e tarefas.", "link": "#" }
+    ],
+    "softSkills": ["Colaboração", "Mentoria", "Comunicação", "Organização"],
+    "formacao": [
+      { "curso": "Sistemas de Informação", "instituicao": "Universidade Local", "ano": "2018" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Open Source", "Startups", "Mentoria"]
+},
+
+{
+  "id": 51,
+  "nome": "Carol Replai",
+  "foto": "https://yt3.googleusercontent.com/ytc/AIdro_nRXbWQEYKYoZZxTLzpuSydNjcwHvFJU7hvzZe7aTQZHg=s900-c-k-c0x00ffffff-no-rj",
+  "cargo": "Engenheira de Machine Learning",
+  "localizacao": "São Paulo, Brasil",
+  "avaliacao": 4.9,
+  "disponibilidade": "Limitada",
+  "area": "Inteligência Artificial",
+  "resumo": "Especialista em modelagem preditiva e sistemas de recomendação. Atua com pipelines de ML e MLOps em larga escala.",
+  "experiencias": [
+    { "cargo": "Machine Learning Engineer", "empresa": "Fintech AI", "inicio": "2020", "fim": "Atual", "descricao": "Desenvolvimento de modelos de risco e fraude." }
+  ],
+  "habilidadesTecnicas": ["Python", "TensorFlow", "Scikit-Learn", "Docker", "Airflow"],
+  "projetos": [],
+  "softSkills": ["Comunicação", "Pensamento Analítico", "Mentoria"],
+  "formacao": [
+    { "curso": "Engenharia de Computação", "instituicao": "USP", "ano": "2019" }
+  ],
+  "certificacoes": ["TensorFlow Developer Certificate"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+  "areaInteresses": ["Modelos Preditivos", "MLOps", "Recomendação"]
+},
+{
+  "id": 52,
+  "nome": "Chico Buarque",
+  "foto": "https://akamai.sscdn.co/tb/letras-blog/wp-content/uploads/2019/08/c6da152-chico-buarque-1024x576.jpeg",
+  "cargo": "Engenheiro DevOps",
+  "localizacao": "Recife, Brasil",
+  "avaliacao": 4.6,
+  "disponibilidade": "Disponível",
+  "area": "DevOps",
+  "resumo": "DevOps focado em automação e CI/CD. Ajuda empresas a criarem pipelines eficientes e escaláveis.",
+  "experiencias": [
+    { "cargo": "DevOps Engineer", "empresa": "CloudBridge", "inicio": "2018", "fim": "Atual", "descricao": "Infraestrutura como código e cultura DevOps." }
+  ],
+  "habilidadesTecnicas": ["CI/CD", "Docker", "Kubernetes", "Terraform", "GitHub Actions"],
+  "projetos": [],
+  "softSkills": ["Organização", "Eficiência", "Trabalho em Equipe"],
+  "formacao": [
+    { "curso": "Redes de Computadores", "instituicao": "IFPE", "ano": "2017" }
+  ],
+  "certificacoes": ["CKA"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+  "areaInteresses": ["Cloud", "Containers", "Automação"]
+}
+
+
+
+
 ]
+
+
+

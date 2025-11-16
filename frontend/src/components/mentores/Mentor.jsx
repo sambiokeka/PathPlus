@@ -8,14 +8,11 @@ const Mentor = ({ mentor, openModal, renderStars }) => {
     >
       <div className="flex items-start space-x-4">
         
-        {/* --- MUDANÇA AQUI --- */}
-        {/* Substituímos a <div> com as iniciais por esta <img> */}
         <img
           src={mentor.foto}
           alt={`Foto de ${mentor.nome}`}
           className="w-16 h-16 rounded-full object-cover flex-shrink-0"
         />
-        {/* --- FIM DA MUDANÇA --- */}
 
         <div className="flex-1 min-w-0">
           <h3 className="font-semibold text-gray-800 dark:text-white truncate">
@@ -41,7 +38,6 @@ const Mentor = ({ mentor, openModal, renderStars }) => {
         </div>
       </div>
 
-      {/* ... (resto do componente sem alteração) ... */}
       <div className="mt-4">
         <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
           {mentor.resumo}
