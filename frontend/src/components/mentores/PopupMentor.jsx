@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   FaTimes,
   FaMapMarkerAlt,
@@ -12,7 +11,6 @@ import {
   FaEnvelope,
 } from 'react-icons/fa';
 
-// Função de ajuda para renderizar estrelas
 const renderStars = (avaliacao) => {
   const stars = [];
   const fullStars = Math.floor(avaliacao);
@@ -199,9 +197,6 @@ const PopupMentor = ({ mentor, closeModal, handleRecommend, handleMessage }) => 
                       <p className="text-sm text-gray-600 dark:text-gray-300">
                         {form.instituicao} • {form.ano}
                       </p> 
-                      {/* --- CORREÇÃO AQUI (Linha 204) ---
-                         Fechei a tag <p> corretamente
-                      */}
                     </div>
                   ))}
                 </div>

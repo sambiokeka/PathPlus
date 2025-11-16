@@ -20,7 +20,7 @@ const Paginacao = ({ currentPage, totalPages, onPageChange }) => {
       <button
         onClick={handlePrev}
         disabled={currentPage === 1}
-        className="flex items-center px-4 py-2 text-sm font-medium text-gray-200 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+        className="hover:cursor-pointer flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white dark:bg-gray-200 border border-gray-300 dark:border-gray-600 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50 dark:hover:bg-gray-300 transition-colors"
       >
         <FaChevronLeft className="mr-2 h-4 w-4" />
         Anterior
@@ -35,7 +35,7 @@ const Paginacao = ({ currentPage, totalPages, onPageChange }) => {
       <button
         onClick={handleNext}
         disabled={currentPage === totalPages}
-        className="flex items-center px-4 py-2 text-sm font-medium text-gray-200 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+        className="hover:cursor-pointer flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white dark:bg-gray-200 border border-gray-300 dark:border-gray-600 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50 dark:hover:bg-gray-300 transition-colors"
       >
         Próximo
         <FaChevronRight className="ml-2 h-4 w-4" />

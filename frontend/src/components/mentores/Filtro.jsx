@@ -36,7 +36,6 @@ const Filtro = ({
         </button>
       </div>
 
-      {/* Filtros Expandidos */}
       <div
         className={`mt-4 grid-cols-1 md:grid-cols-3 gap-4 ${
           showFilters ? 'grid' : 'hidden'
