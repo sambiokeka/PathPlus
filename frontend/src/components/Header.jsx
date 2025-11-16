@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom'; 
 import { FaSun, FaMoon, FaBars, FaTimes, FaHome, FaRoute, FaUserFriends, FaUser } from 'react-icons/fa';
 
+
+
 const Header = ({ darkMode, toggleDarkMode }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -25,9 +27,9 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             <h1 className="text-2xl md:text-3xl font-extrabold">
               <a 
                 href="homepage" 
-                className="flex items-center bg-gradient-to-r from-indigo-200 to-indigo-400 bg-clip-text text-transparent hover:scale-105 transition-transform duration-200"
+                className="flex items-center text-black dark:text-white hover:scale-105 transition-transform duration-200"
               >
-                Path<span className="text-indigo-500 dark:text-indigo-400 ml-1">+</span>
+                <span style={{fontFamily: "Montserrat, sans-serif"}}>Path</span><span className="text-black dark:text-white ml-1"><span style={{fontFamily: "Montserrat, sans-serif"}}>+</span></span>
               </a>
             </h1>
             </div>
@@ -64,7 +66,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
               
               {/* Avatar */}
               <div className="w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center hover:bg-indigo-200 dark:hover:bg-indigo-800 transition-colors cursor-pointer">
-                <span className="text-indigo-600 dark:text-indigo-300 font-medium">U</span>
+                <span className="text-indigo-600 dark:text-indigo-300 font-medium">E</span>
               </div>
 
               {/* Botão Menu Mobile */}
@@ -141,7 +143,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             <div className="mt-8 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center">
-                  <span className="text-indigo-600 dark:text-indigo-300 font-medium text-lg">U</span>
+                  <span className="text-indigo-600 dark:text-indigo-300 font-medium text-lg">E</span>
                 </div>
                 <div>
                   <p className="font-medium text-gray-800 dark:text-white">Erick Jooji</p>
