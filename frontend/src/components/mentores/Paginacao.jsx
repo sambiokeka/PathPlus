@@ -27,7 +27,7 @@ const Paginacao = ({ currentPage, totalPages, onPageChange }) => {
       </button>
 
       {/* Indicador de Página */}
-      <span className="text-sm text-gray-200 dark:text-gray-300">
+      <span className="text-sm text-gray-900 dark:text-gray-300">
         Página <span className="font-medium text-gray-900 dark:text-white">{currentPage}</span> de <span className="font-medium text-gray-900 dark:text-white">{totalPages}</span>
       </span>
 
