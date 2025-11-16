@@ -1170,7 +1170,7 @@
     "foto": "https://www.riotgames.com/darkroom/1200/37908c1557254cd9f18662e3c731f344:834d85640b51b1b0218e56d846ec7195/marc.jpg",
     "cargo": "CPO & Estratégia de Produto",
     "localizacao": "Los Angeles, EUA",
-    "avaliacao": 4.9,
+    "avaliacao": 1.2,
     "disponibilidade": "Limitada",
     "area": "Desenvolvimento de Produto / Estratégia",
     "resumo": "Co-fundador da Riot Games com missão de colocar o jogador no centro de tudo. Conduz a visão de produtos com foco em ecossistemas de jogos e entretenimento.",
@@ -1197,7 +1197,7 @@
     "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGa02PWewqoez0F8ez-T3ULDWC4gups96jBA&s",
     "cargo": "Engenheiro Full Stack / Mentor Técnico",
     "localizacao": "Brusque, Brasil",
-    "avaliacao": 4.8,
+    "avaliacao": 5,
     "disponibilidade": "Disponível",
     "area": "Desenvolvimento de Software",
     "resumo": "Engenheiro Full Stack com sólida experiência em construção e manutenção de aplicações web. Mentor comprometido em ajudar desenvolvedores a evoluir tecnicamente e estruturar projetos escaláveis.",
@@ -1215,55 +1215,244 @@
     "certificacoes": [],
     "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
     "areaInteresses": ["Open Source", "Startups", "Mentoria"]
-},
+  },
 
-{
-  "id": 51,
-  "nome": "Carol Replai",
-  "foto": "https://yt3.googleusercontent.com/ytc/AIdro_nRXbWQEYKYoZZxTLzpuSydNjcwHvFJU7hvzZe7aTQZHg=s900-c-k-c0x00ffffff-no-rj",
-  "cargo": "Engenheira de Machine Learning",
-  "localizacao": "São Paulo, Brasil",
-  "avaliacao": 4.9,
-  "disponibilidade": "Limitada",
-  "area": "Inteligência Artificial",
-  "resumo": "Especialista em modelagem preditiva e sistemas de recomendação. Atua com pipelines de ML e MLOps em larga escala.",
-  "experiencias": [
-    { "cargo": "Machine Learning Engineer", "empresa": "Fintech AI", "inicio": "2020", "fim": "Atual", "descricao": "Desenvolvimento de modelos de risco e fraude." }
-  ],
-  "habilidadesTecnicas": ["Python", "TensorFlow", "Scikit-Learn", "Docker", "Airflow"],
-  "projetos": [],
-  "softSkills": ["Comunicação", "Pensamento Analítico", "Mentoria"],
-  "formacao": [
-    { "curso": "Engenharia de Computação", "instituicao": "USP", "ano": "2019" }
-  ],
-  "certificacoes": ["TensorFlow Developer Certificate"],
-  "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
-  "areaInteresses": ["Modelos Preditivos", "MLOps", "Recomendação"]
-},
-{
-  "id": 52,
-  "nome": "Chico Buarque",
-  "foto": "https://akamai.sscdn.co/tb/letras-blog/wp-content/uploads/2019/08/c6da152-chico-buarque-1024x576.jpeg",
-  "cargo": "Engenheiro DevOps",
-  "localizacao": "Recife, Brasil",
-  "avaliacao": 4.6,
-  "disponibilidade": "Disponível",
-  "area": "DevOps",
-  "resumo": "DevOps focado em automação e CI/CD. Ajuda empresas a criarem pipelines eficientes e escaláveis.",
-  "experiencias": [
-    { "cargo": "DevOps Engineer", "empresa": "CloudBridge", "inicio": "2018", "fim": "Atual", "descricao": "Infraestrutura como código e cultura DevOps." }
-  ],
-  "habilidadesTecnicas": ["CI/CD", "Docker", "Kubernetes", "Terraform", "GitHub Actions"],
-  "projetos": [],
-  "softSkills": ["Organização", "Eficiência", "Trabalho em Equipe"],
-  "formacao": [
-    { "curso": "Redes de Computadores", "instituicao": "IFPE", "ano": "2017" }
-  ],
-  "certificacoes": ["CKA"],
-  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
-  "areaInteresses": ["Cloud", "Containers", "Automação"]
-}
+  {
+    "id": 51,
+    "nome": "Carol Replai",
+    "foto": "https://yt3.googleusercontent.com/ytc/AIdro_nRXbWQEYKYoZZxTLzpuSydNjcwHvFJU7hvzZe7aTQZHg=s900-c-k-c0x00ffffff-no-rj",
+    "cargo": "Engenheira de Machine Learning",
+    "localizacao": "São Paulo, Brasil",
+    "avaliacao": 4.9,
+    "disponibilidade": "Limitada",
+    "area": "Inteligência Artificial",
+    "resumo": "Especialista em modelagem preditiva e sistemas de recomendação. Atua com pipelines de ML e MLOps em larga escala.",
+    "experiencias": [
+      { "cargo": "Machine Learning Engineer", "empresa": "Fintech AI", "inicio": "2020", "fim": "Atual", "descricao": "Desenvolvimento de modelos de risco e fraude." }
+    ],
+    "habilidadesTecnicas": ["Python", "TensorFlow", "Scikit-Learn", "Docker", "Airflow"],
+    "projetos": [],
+    "softSkills": ["Comunicação", "Pensamento Analítico", "Mentoria"],
+    "formacao": [
+      { "curso": "Engenharia de Computação", "instituicao": "USP", "ano": "2019" }
+    ],
+    "certificacoes": ["TensorFlow Developer Certificate"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Modelos Preditivos", "MLOps", "Recomendação"]
+  },
+  {
+    "id": 52,
+    "nome": "Chico Buarque",
+    "foto": "https://akamai.sscdn.co/tb/letras-blog/wp-content/uploads/2019/08/c6da152-chico-buarque-1024x576.jpeg",
+    "cargo": "Engenheiro DevOps",
+    "localizacao": "Recife, Brasil",
+    "avaliacao": 4.6,
+    "disponibilidade": "Disponível",
+    "area": "DevOps",
+    "resumo": "DevOps focado em automação e CI/CD. Ajuda empresas a criarem pipelines eficientes e escaláveis.",
+    "experiencias": [
+      { "cargo": "DevOps Engineer", "empresa": "CloudBridge", "inicio": "2018", "fim": "Atual", "descricao": "Infraestrutura como código e cultura DevOps." }
+    ],
+    "habilidadesTecnicas": ["CI/CD", "Docker", "Kubernetes", "Terraform", "GitHub Actions"],
+    "projetos": [],
+    "softSkills": ["Organização", "Eficiência", "Trabalho em Equipe"],
+    "formacao": [
+      { "curso": "Redes de Computadores", "instituicao": "IFPE", "ano": "2017" }
+    ],
+    "certificacoes": ["CKA"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Cloud", "Containers", "Automação"]
+  },
 
+  {
+    "id": 53,
+    "nome": "Isabella Boscov",
+    "foto": "https://yt3.googleusercontent.com/ytc/AIdro_kLadyntPykzhPUAXJ5MxtZDFIh0wCUPgDRssxNCv4Ekg=s120-c-k-c0x00ffffff-no-rj",
+    "cargo": "UX Researcher",
+    "localizacao": "Porto Alegre, Brasil",
+    "avaliacao": 4.7,
+    "disponibilidade": "Disponível",
+    "area": "Pesquisa em UX",
+    "resumo": "UX Researcher especialista em estudos comportamentais e validação de produto. Traduz dados em decisões estratégicas.",
+    "experiencias": [
+      { "cargo": "UX Researcher", "empresa": "E-commerce Global", "inicio": "2019", "fim": "Atual", "descricao": "Condução de estudos e testes de usabilidade." }
+    ],
+    "habilidadesTecnicas": ["Pesquisa Qualitativa", "Pesquisa Quantitativa", "Entrevistas", "Mapas de Jornada"],
+    "projetos": [],
+    "softSkills": ["Escuta Ativa", "Empatia", "Clareza"],
+    "formacao": [
+      { "curso": "Psicologia", "instituicao": "PUCRS", "ano": "2018" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["UX Research", "Comportamento", "Produto"]
+  },
+  {
+    "id": 54,
+    "nome": "Thiago Saravalli",
+    "foto": "https://media-gru2-1.cdn.whatsapp.net/v/t61.24694-24/513595060_1983820505763348_5271198144933441686_n.jpg?ccb=11-4&oh=01_Q5Aa3AEdKD6lvxqknj_yzN1j3NOODsiTIV-n824EHj8Nm60Ruw&oe=692743B5&_nc_sid=5e03e0&_nc_cat=111",
+    "cargo": "Arquiteto de Software",
+    "localizacao": "São Paulo, Brasil",
+    "avaliacao": 2.9,
+    "disponibilidade": "Limitada",
+    "area": "Arquitetura",
+    "resumo": "Arquiteto especializado em sistemas distribuídos e design de APIs de alta performance.",
+    "experiencias": [
+      { "cargo": "Arquiteto de Software", "empresa": "Enterprise Solutions", "inicio": "2016", "fim": "Atual", "descricao": "Definição de padrões e governança técnica." }
+    ],
+    "habilidadesTecnicas": ["Microservices", "Event-Driven", "Node.js", "Java", "Kafka"],
+    "projetos": [],
+    "softSkills": ["Visão Sistêmica", "Comunicação", "Liderança Técnica"],
+    "formacao": [
+      { "curso": "Sistemas de Informação", "instituicao": "Mackenzie", "ano": "2015" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Arquitetura", "Sistemas Distribuídos", "APIs"]
+  },
+
+  {
+    "id": 55,
+    "nome": "Jay Mello",
+    "foto": "https://yt3.googleusercontent.com/ytc/AIdro_kBWerqtOKxt_ic0_w7CZSqqGwbNioF6--rUJb7gstKyZg=s900-c-k-c0x00ffffff-no-rj",
+    "cargo": "Cientista de Dados",
+    "localizacao": "Curitiba, Brasil",
+    "avaliacao": 4.5,
+    "disponibilidade": "Disponível",
+    "area": "Data Science",
+    "resumo": "Cientista de Dados com experiência em análise exploratória e modelos estatísticos aplicados ao varejo e logística.",
+    "experiencias": [
+      { "cargo": "Data Scientist", "empresa": "Retail Analytics", "inicio": "2020", "fim": "Atual", "descricao": "Análise e previsão de demanda." }
+    ],
+    "habilidadesTecnicas": ["Python", "SQL", "Dashboards", "Modelagem Estatística", "Pandas"],
+    "projetos": [],
+    "softSkills": ["Detalhismo", "Curiosidade", "Análise crítica"],
+    "formacao": [
+      { "curso": "Estatística", "instituicao": "UFPR", "ano": "2019" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Data Science", "Estatística", "Varejo"]
+  },
+
+  {
+    "id": 56,
+    "nome": "Enzo Queiros",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3ZwXnXqlHX1oTfmNiy7EpEYPW6X4KbyAx0A&s",
+    "cargo": "Game Designer",
+    "localizacao": "Florianópolis, Brasil",
+    "avaliacao": 4.8,
+    "disponibilidade": "Disponível",
+    "area": "Game Design",
+    "resumo": "Game designer focado em mecânicas, balanceamento e narrativa interativa.",
+    "experiencias": [
+      { "cargo": "Game Designer", "empresa": "Indie Studio", "inicio": "2018", "fim": "Atual", "descricao": "Criação de sistemas e loops de gameplay." }
+    ],
+    "habilidadesTecnicas": ["Balanceamento", "Narrativa", "Level Design", "Unreal", "Unity"],
+    "projetos": [],
+    "softSkills": ["Criatividade", "Comunicação", "Colaboração"],
+    "formacao": [
+      { "curso": "Design de Jogos Digitais", "instituicao": "UFSC", "ano": "2017" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Game Design", "Narrativa", "Engines"]
+  },
+  {
+    "id": 57,
+    "nome": "Nicolle Diretora",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYJg2eO1nYMf6xDk25c8fRSakZ-dwe_KaeHvX8vv9IFal-9i0HUi2sgH3UcBULYIfziNE&usqp=CAU",
+    "cargo": "Especialista em Segurança da Informação",
+    "localizacao": "Lisboa, Portugal",
+    "avaliacao": 4.9,
+    "disponibilidade": "Limitada",
+    "area": "Segurança da Informação",
+    "resumo": "Especialista em segurança com foco em pentest, análise de risco e resposta a incidentes.",
+    "experiencias": [
+      { "cargo": "Security Specialist", "empresa": "CyberShield", "inicio": "2017", "fim": "Atual", "descricao": "Testes de invasão e auditorias de segurança." }
+    ],
+    "habilidadesTecnicas": ["Pentest", "OWASP", "Linux", "Red Team", "Forense"],
+    "projetos": [],
+    "softSkills": ["Detalhismo", "Raciocínio Lógico", "Discrição"],
+    "formacao": [
+      { "curso": "Segurança da Informação", "instituicao": "Universidade de Lisboa", "ano": "2016" }
+    ],
+    "certificacoes": ["CEH"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Cybersegurança", "Pentest", "Infraestrutura"]
+  },
+
+  {
+    "id": 58,
+    "nome": "Lucas Mendes",
+    "foto": "/src/assets/fotos/lucasmendes.png",
+    "cargo": "Data Engineer",
+    "localizacao": "Fortaleza, Brasil",
+    "avaliacao": 5,
+    "disponibilidade": "Disponível",
+    "area": "Engenharia de Dados",
+    "resumo": "Engenheiro de dados focado em pipelines, ETL e arquiteturas de big data.",
+    "experiencias": [
+      { "cargo": "Data Engineer", "empresa": "Analytics Hub", "inicio": "2020", "fim": "Atual", "descricao": "Construção de pipelines e modelagem de dados." }
+    ],
+    "habilidadesTecnicas": ["Spark", "Airflow", "SQL", "Python", "BigQuery"],
+    "projetos": [],
+    "softSkills": ["Organização", "Clareza Técnica", "Resolução de Problemas"],
+    "formacao": [
+      { "curso": "Ciência da Computação", "instituicao": "UFC", "ano": "2019" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Big Data", "Pipelines", "ETL"]
+  },
+
+  {
+    "id": 59,
+    "nome": "Carol Zaghetti",
+    "foto": "https://pbs.twimg.com/media/FvOY3OCWIBgTWq1.jpg",
+    "cargo": "Product Manager",
+    "localizacao": "São Paulo, Brasil",
+    "avaliacao": 4.8,
+    "disponibilidade": "Disponível",
+    "area": "Produto",
+    "resumo": "PM especializada em descoberta de produto, métricas e priorização baseada em impacto.",
+    "experiencias": [
+      { "cargo": "Product Manager", "empresa": "Marketplace X", "inicio": "2019", "fim": "Atual", "descricao": "Gestão de roadmap e discovery contínuo." }
+    ],
+    "habilidadesTecnicas": ["OKRs", "Roadmapping", "Discovery", "Métricas", "Analytics"],
+    "projetos": [],
+    "softSkills": ["Comunicação", "Liderança", "Empatia"],
+    "formacao": [
+      { "curso": "Administração", "instituicao": "FGV", "ano": "2018" }
+    ],
+    "certificacoes": ["PMI-ACP"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Produto", "Experiência do Usuário", "Negócios"]
+  },
+
+  {
+    "id": 60,
+    "nome": "Maurício Donizete",
+    "foto": "https://media.licdn.com/dms/image/v2/D4D03AQEO_y36RaBcCw/profile-displayphoto-scale_200_200/B4DZep6tVgGgAY-/0/1750902430713?e=2147483647&v=beta&t=IlLUkooeoPrnj8k11TgD1wCfasnIv_u-cDJSve0NK3k",
+    "cargo": "Mobile Developer",
+    "localizacao": "Salvador, Brasil",
+    "avaliacao": 4.7,
+    "disponibilidade": "Disponível",
+    "area": "Desenvolvimento Mobile",
+    "resumo": "Desenvolvedor mobile especializado em Flutter. Cria apps performáticos e escaláveis.",
+    "experiencias": [
+      { "cargo": "Flutter Developer", "empresa": "AppStudio", "inicio": "2020", "fim": "Atual", "descricao": "Desenvolvimento de aplicativos multiplataforma." }
+    ],
+    "habilidadesTecnicas": ["Flutter", "Dart", "Firebase", "UI/UX Mobile", "APIs"],
+    "projetos": [],
+    "softSkills": ["Criatividade", "Velocidade", "Organização"],
+    "formacao": [
+      { "curso": "Ciência da Computação", "instituicao": "UNIFACS", "ano": "2019" }
+    ],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Mobile", "Flutter", "Startups"]
+  }
 
 
 
