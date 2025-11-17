@@ -69,7 +69,7 @@ const PopupMentor = ({ mentor, closeModal, handleRecommend, handleMessage }) => 
             </div>
             <button
               onClick={closeModal}
-              className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+              className="hover:cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
             >
               <FaTimes className="text-2xl" />
             </button>
@@ -151,7 +151,7 @@ const PopupMentor = ({ mentor, closeModal, handleRecommend, handleMessage }) => 
                             href={projeto.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-indigo-600 dark:text-indigo-400 text-sm hover:underline mt-2 inline-block"
+                            className="hover:cursor-pointer text-indigo-600 dark:text-indigo-400 text-sm hover:underline mt-2 inline-block"
                           >
                             Ver projeto →
                           </a>
@@ -264,14 +264,14 @@ const PopupMentor = ({ mentor, closeModal, handleRecommend, handleMessage }) => 
               <div className="space-y-3">
                 <button
                   onClick={handleRecommend}
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-medium transition-colors flex items-center justify-center"
+                  className="w-full bg-green-600 hover:cursor-pointer hover:bg-green-700 text-white py-3 rounded-lg font-medium transition-colors flex items-center justify-center"
                 >
                   <FaStar className="mr-2" />
                   Recomendar Profissional
                 </button>
                 <button
                   onClick={handleMessage}
-                  className="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-3 rounded-lg font-medium transition-colors flex items-center justify-center"
+                  className="w-full bg-indigo-600 hover:cursor-pointer hover:bg-indigo-700 text-white py-3 rounded-lg font-medium transition-colors flex items-center justify-center"
                 >
                   <FaEnvelope className="mr-2" />
                   Enviar Mensagem

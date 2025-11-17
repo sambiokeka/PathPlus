@@ -48,7 +48,6 @@ const HeroSection = ({ stats, relatos }) => {
           
           <div className="lg:w-1/2 flex justify-center">
             <div className="relative">
-              {/* Card Falso do Dashboard */}
               <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-2xl max-w-md">
                 <div className="flex items-center mb-6">
                   <div className="w-12 h-12 bg-indigo-600 rounded-xl flex items-center justify-center">
