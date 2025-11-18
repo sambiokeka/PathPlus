@@ -67,6 +67,8 @@ Instalação e execução (desenvolvimento)
 
    cd PathPlus
 
+   cd frontend
+
    ```
 
 2. Instale dependências:
