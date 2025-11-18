@@ -1,5 +1,9 @@
 # PathPlus
 
+Autor
+
+Erick Jooji - RM 564482
+
 Descrição
 ---------
 Path + é uma plataforma web em React destinada a conectar aprendizes e entusiastas de Inteligência Artificial com mentores experientes. O projeto é organizado para ser simples de desenvolver e fácil de estender, com foco em um layout limpo, gestão de estado eficiente e suporte a temas (dark mode).
