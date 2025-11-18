@@ -34,10 +34,7 @@ Tecnologias utilizadas
 
 Estrutura atual do código
 -------------------------
-Por simplicidade e compatibilidade com o ambiente atual, todos os componentes e dados estão consolidados em:
-- `src/App.jsx`
 
-Estrutura
 - src/
   - components/
     - dashboard/
