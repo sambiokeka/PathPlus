@@ -31,7 +31,7 @@ const ChatBot = () => {
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
-  const genAI = new GoogleGenerativeAI("AIzaSyA8yqH1Z8wGbSx3U-QJ5-3hv-s0z4SGeic");
+  const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
 
   useEffect(() => {
     localStorage.setItem('pathPlus_chatHistory', JSON.stringify(mentorConversations));
