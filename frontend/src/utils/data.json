@@ -567,7 +567,7 @@
   {
     "id": 25,
     "nome": "Fábio Santos",
-    "foto": "/src/assets/fotos/cara1.jpg",
+    "foto": "/fotos/cara1.jpg",
     "cargo": "Desenvolvedor Backend (Node.js)",
     "localizacao": "Remoto",
     "avaliacao": 4.6,
@@ -636,7 +636,7 @@
   {
     "id": 28,
     "nome": "Tatiana Morais",
-    "foto": "/src/assets/fotos/mulher1.jpg",
+    "foto": "/fotos/mulher1.jpg",
     "cargo": "Agile Coach / Scrum Master",
     "localizacao": "Rio de Janeiro, Brasil",
     "avaliacao": 4.8,
@@ -755,7 +755,7 @@
   {
     "id": 33,
     "nome": "Gustav Elijah",
-    "foto": "/src/assets/fotos/gus.jpg",
+    "foto": "/fotos/gus.jpg",
     "cargo": "Analista de Dados Pleno",
     "localizacao": "Remoto",
     "avaliacao": 5.0,
@@ -805,7 +805,7 @@
   {
     "id": 35,
     "nome": "Rafael da Cruz",
-    "foto": "/src/assets/fotos/rafael.webp",
+    "foto": "/fotos/rafael.webp",
     "cargo": "Desenvolvedor Backend (Node.js)",
     "localizacao": "Remoto",
     "avaliacao": 4.6,
@@ -886,7 +886,7 @@
   {
     "id": 38,
     "nome": "Lucas Martins",
-    "foto": "/src/assets/fotos/lucas.jpg",
+    "foto": "/fotos/lucas.jpg",
     "cargo": "Agile Coach / Scrum Master",
     "localizacao": "Rio de Janeiro, Brasil",
     "avaliacao": 4.8,
@@ -934,7 +934,7 @@
   {
     "id": 40,
     "nome": "Jarad A. Higgins",
-    "foto": "/src/assets/fotos/jarad.jpg",
+    "foto": "/fotos/jarad.jpg",
     "cargo": "Creative Technologist / Especialista em IA Generativa",
     "localizacao": "Remoto",
     "avaliacao": 4.9,
@@ -959,7 +959,7 @@
   {
     "id": 41,
     "nome": "Jahseh Onfroy",
-    "foto": "/src/assets/fotos/jahseh.jpg",
+    "foto": "/fotos/jahseh.jpg",
     "cargo": "Artista Multidisciplinar / Especialista em Som & Experiências Digitais",
     "localizacao": "Remoto",
     "avaliacao": 4.9,
@@ -984,7 +984,7 @@
   {
     "id": 42,
     "nome": "Oliver T.",
-    "foto": "/src/assets/fotos/oliver.jpg",
+    "foto": "/fotos/oliver.jpg",
     "cargo": "Creative Engineer / Diretor de Experimentos Visuais",
     "localizacao": "Los Angeles, EUA",
     "avaliacao": 3.7,
@@ -1009,7 +1009,7 @@
   {
     "id": 43,
     "nome": "Pedro Henrique Magalhães Frade",
-    "foto": "/src/assets/fotos/pedro.webp",
+    "foto": "/fotos/pedro.webp",
     "cargo": "Engenheiro de Software",
     "localizacao": "São Paulo, Brasil",
     "avaliacao": 2.7,
@@ -1385,7 +1385,7 @@
   {
     "id": 58,
     "nome": "Lucas Mendes",
-    "foto": "/src/assets/fotos/lucasmendes.png",
+    "foto": "/fotos/lucasmendes.png",
     "cargo": "Data Engineer",
     "localizacao": "Fortaleza, Brasil",
     "avaliacao": 5,
