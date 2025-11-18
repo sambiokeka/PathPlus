@@ -1,4 +1,4 @@
-# MentorIA — Plataforma de Mentoria em IA
+# PathPlus
 
 Descrição
 ---------
