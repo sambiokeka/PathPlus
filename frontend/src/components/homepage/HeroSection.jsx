@@ -1,4 +1,5 @@
 import { FaPlay, FaStar, FaArrowRight, FaLightbulb, FaUserFriends, FaGraduationCap, FaCheck, FaChartLine } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const HeroSection = ({ stats, relatos }) => {
   const mentorStat = stats.find(s => s.label.includes('Mentores'))?.number || "200+";
@@ -24,13 +25,17 @@ const HeroSection = ({ stats, relatos }) => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
+              <Link to="/dashboard">
               <button className="hover:cursor-pointer bg-white text-indigo-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 flex items-center justify-center">
                 <FaPlay className="mr-3" />
                 Começar Agora
               </button>
+              </Link>
+              <Link to="/trilha">
               <button className="border-2 border-white text-white hover:cursor-pointer hover:bg-gray-800 hover:bg-opacity-10 px-8 py-4 rounded-lg font-bold text-lg transition-all flex items-center justify-center">
                 Explorar Trilhas
               </button>
+              </Link>
             </div>
             
             <div className="flex items-center mt-8 text-indigo-100">
@@ -92,11 +97,12 @@ const HeroSection = ({ stats, relatos }) => {
                     <p className="text-xs text-gray-600 dark:text-gray-300">Estudo</p>
                   </div>
                 </div>
-                
+                 <Link to="/mentores">
                 <button className="w-full bg-indigo-600 hover:cursor-pointer hover:bg-indigo-700 text-white py-3 rounded-lg font-semibold transition-colors flex items-center justify-center">
-                  Continuar Aprendizado
+                 Ver Mentores
                   <FaArrowRight className="ml-2" />
                 </button>
+                </Link>
               </div>
               
               <div className="absolute -top-4 -left-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg">

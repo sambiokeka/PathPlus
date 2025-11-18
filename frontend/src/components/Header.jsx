@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom'; 
 import { FaSun, FaMoon, FaBars, FaTimes, FaHome, FaRoute, FaUserFriends, FaUser } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 
 
 const Header = ({ darkMode, toggleDarkMode }) => {
@@ -25,12 +25,12 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             {/* Logo */}
             <div className="flex items-center space-x-2">
             <h1 className="text-2xl md:text-3xl font-extrabold">
-              <a 
-                href="homepage" 
+              <Link 
+                to="/" 
                 className="flex items-center text-black dark:text-white hover:scale-105 transition-transform duration-200"
               >
                 <span style={{fontFamily: "Montserrat, sans-serif"}}>Path</span><span className="text-black dark:text-white ml-1"><span style={{fontFamily: "Montserrat, sans-serif"}}>+</span></span>
-              </a>
+              </Link>
             </h1>
             </div>
             
