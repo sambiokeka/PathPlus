@@ -162,14 +162,6 @@ const Header = ({ darkMode, toggleDarkMode }) => {
                 </div>
               </div>
             </div>
-
-            {/* Footer do Menu Mobile */}
-            <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
-              <button className="w-full flex items-center justify-center space-x-2 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-medium transition-colors">
-                <FaUserFriends />
-                <span>Encontrar Mentores</span>
-              </button>
-            </div>
           </div>
         </div>
       </div>
