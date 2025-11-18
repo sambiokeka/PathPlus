@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const MentoresDashboard = () => {
   // Lista de mentores para facilitar a manutenção
   const mentores = [
@@ -48,11 +50,12 @@ const MentoresDashboard = () => {
           ))}
         </div>
       </div>
-      
+      <Link to="/mentores">
       <button className="hover:cursor-pointer w-full mt-6 border border-dashed border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 py-3 rounded-lg font-medium hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors flex items-center justify-center">
         <i className="fas fa-plus mr-2"></i>
         Encontrar mais mentores
       </button>
+      </Link>
     </div>
   );
 };
