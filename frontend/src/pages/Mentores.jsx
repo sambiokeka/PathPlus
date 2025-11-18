@@ -7,7 +7,6 @@ import ContainerMentores from '../components/mentores/ContainerMentores';
 import PopupMentor from '../components/mentores/PopupMentor';
 import Paginacao from '../components/mentores/Paginacao'; 
 
-
 const MENTORES_POR_PAGINA = 6;
 
 export default function Mentores() {
@@ -26,12 +25,11 @@ export default function Mentores() {
 
   const [currentPage, setCurrentPage] = useState(1);
 
-
+  // --- EFEITOS ---
   useEffect(() => {
     setMentores(mockMentores);
     setFilteredMentores(mockMentores);
   }, []);
-
 
   useEffect(() => {
     let result = mentores;
@@ -79,12 +77,18 @@ export default function Mentores() {
     }
   };
 
+
   const handleMessage = () => {
     if (selectedMentor) {
-      alert(`Redirecionando para mensagem com ${selectedMentor.nome}`);
+      const event = new CustomEvent('openChatWithMentor', { 
+        detail: selectedMentor 
+      });
+      window.dispatchEvent(event);
+
+  
+      closeModal();
     }
   };
-
 
   const areas = [...new Set(mentores.map(mentor => mentor.area))];
   const localizacoes = [...new Set(mentores.map(mentor => mentor.localizacao))];
@@ -104,7 +108,7 @@ export default function Mentores() {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 py-8">
       <div className="container mx-auto px-4">
         
-        {/* Header da Página */}
+        {/* Início da Página */}
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 mb-8">
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center">
             <div>
@@ -124,7 +128,6 @@ export default function Mentores() {
           </div>
         </div>
         
-        {/* Filtro */}
         <Filtro
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
@@ -136,21 +139,18 @@ export default function Mentores() {
           localizacoes={localizacoes}
         />
 
-        {/* Grid de Mentores */}
         <ContainerMentores
           mentoresDaPagina={mentoresDaPagina}
           totalMentoresEncontrados={filteredMentores.length}
           openModal={openModal}
         />
 
-        {/* Paginacao */}
         <Paginacao
           currentPage={currentPage}
           totalPages={totalPages}
           onPageChange={handlePageChange}
         />
 
-        {/* Modal */}
         {isModalOpen && selectedMentor && (
           <PopupMentor
             mentor={selectedMentor}

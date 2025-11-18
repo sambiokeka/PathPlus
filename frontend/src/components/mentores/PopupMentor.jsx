@@ -1,14 +1,16 @@
-import {
-  FaTimes,
-  FaMapMarkerAlt,
-  FaStar,
-  FaRegStar,
-  FaUserPlus,
-  FaBriefcase,
-  FaCode,
-  FaGraduationCap,
-  FaHeart,
+import { useState } from 'react'; 
+import { 
+  FaTimes, 
+  FaMapMarkerAlt, 
+  FaStar, 
+  FaRegStar, 
+  FaUserPlus, 
+  FaBriefcase, 
+  FaCode, 
+  FaGraduationCap, 
+  FaHeart, 
   FaEnvelope,
+  FaCheck 
 } from 'react-icons/fa';
 
 const renderStars = (avaliacao) => {
@@ -33,6 +35,28 @@ const renderStars = (avaliacao) => {
 };
 
 const PopupMentor = ({ mentor, closeModal, handleRecommend, handleMessage }) => {
+  
+  const [isRecommended, setIsRecommended] = useState(() => {
+    const savedRecommendations = JSON.parse(localStorage.getItem('pathPlus_recomendados') || '[]');
+    return savedRecommendations.includes(mentor.nome);
+  });
+
+  const toggleRecommendation = () => {
+    const newState = !isRecommended;
+    setIsRecommended(newState);
+
+    let savedRecommendations = JSON.parse(localStorage.getItem('pathPlus_recomendados') || '[]');
+
+    if (newState) {
+      if (!savedRecommendations.includes(mentor.nome)) {
+        savedRecommendations.push(mentor.nome);
+      }
+    } else {
+      savedRecommendations = savedRecommendations.filter(name => name !== mentor.nome);
+    }
+    localStorage.setItem('pathPlus_recomendados', JSON.stringify(savedRecommendations));
+  };
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50">
       {/* O container do modal */}
@@ -262,13 +286,24 @@ const PopupMentor = ({ mentor, closeModal, handleRecommend, handleMessage }) => 
 
               {/* Botões de Ação */}
               <div className="space-y-3">
+                
+
                 <button
-                  onClick={handleRecommend}
-                  className="w-full bg-green-600 hover:cursor-pointer hover:bg-green-700 text-white py-3 rounded-lg font-medium transition-colors flex items-center justify-center"
-                >
-                  <FaStar className="mr-2" />
-                  Recomendar Profissional
+                  onClick={toggleRecommendation}
+                  className='w-full py-3 rounded-lg font-medium transition-colors flex items-center justify-center hover:cursor-pointer bg-green-600 hover:bg-green-700 text-white'>
+                  {isRecommended ? (
+                    <>
+                      <FaCheck className="mr-2" />
+                      Profissional Recomendado
+                    </>
+                  ) : (
+                    <>
+                      <FaStar className="mr-2" />
+                      Recomendar Profissional
+                    </>
+                  )}
                 </button>
+
                 <button
                   onClick={handleMessage}
                   className="w-full bg-indigo-600 hover:cursor-pointer hover:bg-indigo-700 text-white py-3 rounded-lg font-medium transition-colors flex items-center justify-center"

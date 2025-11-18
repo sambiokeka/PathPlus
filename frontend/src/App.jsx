@@ -1,8 +1,7 @@
-// src/App.jsx
-
 import { useState, useEffect } from 'react';
 import { Outlet } from "react-router-dom"
 import Header from "./components/Header"
+import ChatBot from './components/ChatBot'; 
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -14,7 +13,7 @@ export default function App() {
     totalModules: 12,
     pontuacao: 84,
     tempoEstudo: 36,
-    totalDuration: 45, 
+    totalDuration: 45,
     completedDuration: 19
   });
 
@@ -40,11 +39,14 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+
+    <div className="relative min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main>
         <Outlet context={{ progressData }} />
       </main>
+
+      <ChatBot />
     </div>
   )
 }
